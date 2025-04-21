@@ -8,7 +8,8 @@
     "serve": "docusaurus serve",
     "clear": "docusaurus clear",
     "swizzle": "docusaurus swizzle",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "deploy": "docusaurus deploy"
   },
   "dependencies": {
     "@docusaurus/core": "3.7.0",

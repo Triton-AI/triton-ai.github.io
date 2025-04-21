@@ -159,9 +159,9 @@ export default function Home() {
         </div>
 
         <div className={styles.sectionHeader}>
-          <h2 className="h1 text-white font-twkeverett">Why IOTA?</h2>
+          <h2 className="h1 text-white font-twkeverett">Filler Text?</h2>
           <h3 className="h3 text-gray text-center">
-            IOTA is the first internet-scale programmable blockchain platform
+            abracadabra
           </h3>
         </div>
         <div className={styles.why}>

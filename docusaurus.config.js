@@ -10,10 +10,14 @@ import codeImport from "remark-code-import";
 
 require("dotenv").config();
 
-const jargonConfig = require('./config/jargon.js');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
+  organizationName: 'triton-ai',
+  projectName: 'triton-ai.github.io',
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
+
   title: "TritonAI",
   tagline:
     "Triton AI Website",
