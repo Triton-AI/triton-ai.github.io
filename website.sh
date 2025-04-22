@@ -1,6 +1,11 @@
 #!/bin/bash
 
-docker run -it \
+docker run \
+  --name tai-website-dev\
+  -it \
+  --rm \
+  --privileged \
+  --net=host \
   -p 3000:3000 \
   -v "$(pwd):/app" \
   -w /app \
