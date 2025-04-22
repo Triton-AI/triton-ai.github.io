@@ -27,4 +27,4 @@ package-lock.json
 .vercel
 .env*.local
 
-.pnpm-store/** */
+.pnpm-store/**
