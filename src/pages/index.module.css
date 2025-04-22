@@ -15,17 +15,16 @@
   row-gap: 2.5rem;
   margin-top: 10rem;
   margin-left: 16rem;
-  padding-top: 2rem;
-  width: 400px;
+  padding-top: 10rem;
+  width: 500px;
 }
 .backgroundImage {
-  background: black url(../../static/img/index/youtube_banner.jpg);
-  height: 27rem;
+  background: black url(../../static/img/index/background.jpg);
+  height: 33rem;
   margin-top: -10rem;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100% auto;
-  width: 100%;
+  background-size: 50% 100%;
   margin-bottom: 2rem;
 }
 @media (max-width: 599px) {
@@ -46,7 +45,7 @@
 }
 @media (max-width: 2000px) {
   .backgroundImage {
-    background-size: 40% 100%;
+    background-size: 100% 100%;
   }
 }
 @media (max-width: 1700px) {

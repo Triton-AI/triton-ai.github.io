@@ -56,7 +56,7 @@ export default function Home() {
           <div className="w-full mt-24 mb-12 mx-auto">
             <div className={styles.heroText}>
               <h1 className="text-5xl center-text text-white">
-                Triton AI 
+               
               </h1>
               <h2
                 className="h2 text-gray center-text h3"
