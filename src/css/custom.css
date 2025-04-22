@@ -415,7 +415,7 @@ h4 {
 /** Navbar overrides **/
 .navbar {
   border-bottom: 1px solid var(--iota-line);
-  background-color: black;
+  background-color: var(--tai-blue);
 }
 
 .navbar__title {
@@ -568,7 +568,7 @@ h4 {
 }
 
 .footer {
-  background-color: black;
+  background-color: var(--tai-blue);
 }
 
 /** colors **/

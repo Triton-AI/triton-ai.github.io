@@ -87,7 +87,7 @@
 .cardCTA {
   height: 480px;
   border: 1px solid;
-  border-color: var(--iota-line);
+  border-color: var(--tai-aqua);
   display: flex;
   flex-direction: column;
   padding: 1.875rem;
