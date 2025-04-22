@@ -144,7 +144,7 @@ const config = {
         content:
           'Fill in this section with whatever you want, >><a target="_blank" rel="noopener noreferrer" href="/developer/exchange-integration/">Integrate your exchange</a>. If you supported Stardust, please make sure to also <a target="_blank" rel="noopener noreferrer" href="/developer/stardust/exchanges"> migrate from Stardust</a>.',
         isCloseable: false,
-        backgroundColor: "#0101ff",
+        backgroundColor: "#003153",
         textColor: "#FFFFFF",
       },
       navbar: {

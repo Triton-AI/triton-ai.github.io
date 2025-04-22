@@ -19,12 +19,13 @@
   width: 400px;
 }
 .backgroundImage {
-  background: black url(../../static/img/index/heroTextBg.svg);
+  background: black url(../../static/img/index/youtube_banner.jpg);
   height: 27rem;
   margin-top: -10rem;
-  background-position: right;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: 50% 100%;
+  background-size: 100% auto;
+  width: 100%;
   margin-bottom: 2rem;
 }
 @media (max-width: 599px) {
