@@ -93,7 +93,11 @@ const config = {
     [
       "classic",
       {
-        docs: false,
+        docs: {
+        path: "content",
+        routeBasePath: "content", // URL path prefix
+        sidebarPath: false,
+      },
         theme: {
           customCss: [
             require.resolve("./src/css/fonts.css"),

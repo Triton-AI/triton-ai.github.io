@@ -16,8 +16,8 @@ import FeedbackForm from "@site/src/components/FeedbackForm";
 export default function MDXContent({ children }: Props): JSX.Element {
   const components = {
     ...MDXComponents,
-    Card,
-    Cards,
+   // Card,
+   // Cards,
     Tabs,
     TabItem,
   };
