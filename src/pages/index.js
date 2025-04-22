@@ -51,7 +51,7 @@ export default function Home() {
       }}
     >
       {" "}
-      <div className="bg-iota-black overflow-hidden">
+      <div className="bg-tai-blue overflow-hidden">
         <div className={styles.backgroundImage}>
           <div className="w-full mt-24 mb-12 mx-auto">
             <div className={styles.heroText}>
@@ -60,7 +60,7 @@ export default function Home() {
               </h1>
               <h2
                 className="h2 text-gray center-text h3"
-                style={{ fontSize: "16px" }}
+                style={{ fontSize: "24px" }}
               >
                Explore artifical intelligence and robotics through hands-on projects and competition.
               </h2>

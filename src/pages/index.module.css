@@ -19,15 +19,15 @@
   width: 500px;
 }
 .backgroundImage {
-  background: black url(../../static/img/index/background.jpg);
+  background: black url(../../static/img/index/Desktop.jpg);
   height: 33rem;
   margin-top: -10rem;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 50% 100%;
+  background-size: cover;
   margin-bottom: 2rem;
 }
-@media (max-width: 599px) {
+/* @media (max-width: 599px) {
   .backgroundImage {
     background-size: 125% 70% !important;
   }
@@ -82,7 +82,7 @@
   .backgroundImage {
     background-size: 75% 100%;
   }
-}
+} */
 .card,
 .cardCTA {
   height: 480px;
