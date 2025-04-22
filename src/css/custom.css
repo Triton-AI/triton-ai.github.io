@@ -86,6 +86,8 @@
 
   /* Triton-AI Color Definition */
   --tai-blue: #131d34;
+  --tai-blue-light0: #172a48;
+  --tai-aqua: #6efde7;
 
   --primaryFont: "Inter", sans-serif;
   --headerFont: "Twkeverett", sans-serif;
