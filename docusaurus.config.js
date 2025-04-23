@@ -94,8 +94,8 @@ const config = {
       "classic",
       {
         docs: {
-        path: "content",
-        routeBasePath: "content", // URL path prefix
+        path: "pages",
+        routeBasePath: "pages", // URL path prefix
         sidebarPath: false,
       },
         theme: {
@@ -129,11 +129,12 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+    /*
       algolia: {
         apiKey: 'XXXXXXXXXXXXXX',
         appId: 'XXXXXXXXXXXX',
         indexName: 'tritonAI',
-      },
+      },*/
       image: "img/iota-doc-og.png",
       docs: {
         sidebar: {
@@ -157,37 +158,43 @@ const config = {
           alt: "Triton AI Logo Blue",
           src: "/logo/LOGO Blue.png",
         },
-        items: [
-          {
-            label: "Silberman",
-            to: "about",
-          },
-          {
-            label: "Pope",
-            to: "developer",
-          },
-          {
-            label: "Colin",
-            to: "operator",
-          },
-          {
-            label: "Winston",
-            to: "references",
-          },
-          {
-            label: "Aryan",
-            to: "ts",
-          },
-          {
-            label: "Jingli",
-            to: "identity",
-          },
-          {
-            label: "Kevin",
-            to: "support",
-          },
-        ],
-      },
+       items: [
+                {
+                  label: "About Us",
+                  position: "right",
+                  items: [
+                          { label: "Mission Statement", to: "about/mission" },
+                          { label: "Meet the Team", to: "about/team" },
+                          { label: "Meet the Mentors", to: "about/mentors" },
+                          { label: "Recognitions", to: "about/recognitions" },
+                       ],
+                     },
+                {
+                  label: "Teams",
+                  position: "right",
+                  items: [
+                          { label: "GoKart", to: "teams/gokart" },
+                          { label: "F1Tenth", to: "teams/f1tenth" },
+                          { label: "RobotX", to: "teams/robotx" },
+                        ],
+                },
+                { 
+                  label: "Get Involved", 
+                  to: "join",
+                  position: "right",
+                },
+                {
+                  label: "Support",
+                  to: "support",
+                  position: "right",
+                },
+                {
+                  label: "Contact",
+                  to: "contact",
+                position: "right",
+                },
+              ],
+            },
       footer: {
         style: "dark",
         logo: {

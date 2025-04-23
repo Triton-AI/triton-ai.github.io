@@ -14,15 +14,15 @@
   flex-direction: column;
   row-gap: 2.5rem;
   margin-top: 10rem;
-  margin-left: 16rem;
-  padding-top: 10rem;
+  margin-left: 10rem;
+  padding-top: 7rem;
   width: 500px;
 }
+
 .backgroundImage {
-  background: black url(../../static/img/index/Desktop.jpg);
+  background: black url(../../static/img/index/image.jpg);
   height: 33rem;
   margin-top: -10rem;
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 2rem;
@@ -191,7 +191,7 @@
   flex-direction: column;
   align-items: center;
   row-gap: 2.5rem;
-  margin: 10rem auto 4.5rem auto;
+  margin: 7rem auto 4.5rem auto;
   padding: 0 1rem;
 }
 

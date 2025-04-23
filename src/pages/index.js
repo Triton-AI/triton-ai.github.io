@@ -58,111 +58,21 @@ export default function Home() {
               <h1 className="text-5xl center-text text-white">
                
               </h1>
-              <h2
-                className="h2 text-gray center-text h3"
-                style={{ fontSize: "24px" }}
-              >
-               Explore artifical intelligence and robotics through hands-on projects and competition.
-              </h2>
-              <Link
+            </div>
+          </div>
+        </div>
+ 
+        <div className={styles.sectionHeader}>
+          <h3 className="h3 text-gray text-center">
+            We're not just a club — we're a robotics team driven by curiosity and results. <br/>
+            Explore artifical intelligence and robotics through hands-on projects and competition.
+          </h3> 
+           <Link
                 to="/developer/getting-started"
                 className="button-cta"
               >
                 Latest News
               </Link>
-            </div>
-          </div>
-        </div>
-
-        <div className="flex flex-row flex-wrap justify-center gap-2 max-w-[1066px] mx-auto">
-          <HomeCard title="About TritonAI" heroCardBg={heroCardBg}>
-            <Link className={styles.cardLink} to="./topic1">
-              Topic 1
-            </Link>
-            <Link className={styles.cardLink} to="./topic2">
-              Topic 2
-            </Link>
-            <Link className={styles.cardLink} to="./topic3">
-              Topic 3
-            </Link>
-          </HomeCard>
-          <HomeCard title="Teams" heroCardBg={heroCardBg1}>
-            <Link
-              className={styles.cardLink}
-              to="./GoKart"
-            >
-              GoKart
-            </Link>
-            <Link className={styles.cardLink} to="./f1tenth">
-              F1Tenth
-            </Link>
-            <Link
-              className={styles.cardLink}
-              to="./robotx"
-            >
-              Robotx
-            </Link>
-          </HomeCard>
-          <HomeCard
-            title="Getting Involved"
-            heroCardBg={heroCardBg2}
-          >
-            <Link
-              className={styles.cardLink}
-              to="./topic4"
-            >
-              Topic4
-            </Link>
-            <Link
-              className={styles.cardLink}
-              to="./topic5"
-            >
-              Topic5
-              <span className="block bg-auto bg-[url(/img/index/right-arrow.svg)]"></span>
-            </Link>
-          </HomeCard>
-          <HomeCard title="Support TritonAI" aux heroCardBg={heroCardBg1}>
-            <Link
-              className={styles.cardLink}
-              to="./sponsors"
-            >
-              Become a Sponsor
-            </Link>
-            <Link className={styles.cardLink} to="/supportmethod2">
-              Support Method 2
-            </Link>
-            <Link
-              className={styles.cardLink}
-              to="./supportmethod3"
-            >
-              Support Method 3
-            </Link>
-            <Link
-              className={styles.cardLink}
-              to="./supportmethod4"
-            >
-              Support Method 4
-            </Link>
-          </HomeCard>
-          <HomeCard title="Stay Connected" aux heroCardBg={heroCardBg2}>
-            <Link
-              className={styles.cardLink}
-              to="https://discord.gg/ZzfBGvG3FF"
-            >
-              Discord
-            </Link>
-            <Link className={styles.cardLink} to="https://linkedin.com/company/triton-ai-ucsd">
-              LinkedIn
-            </Link>
-            
-          </HomeCard>
-        </div>
-
-        <div className={styles.sectionHeader}>
-          <h2 className="h1 text-white font-twkeverett">Filler Text?</h2>
-          <h3 className="h3 text-gray text-center">
-            abracadabra
-          </h3>
         </div>
         <div className={styles.why}>
           <div className={styles.whyImgCard}>
@@ -360,6 +270,92 @@ export default function Home() {
               We're not just building to learn but also building to win. Our project teams push each system to its limits, tuning for performance, reliability, and speed. If you're excited by the idea of this, join us and be part of a team that turns ambition into performance.
             </p>
           </div>
+        </div>
+
+
+      
+        <div className="flex flex-row flex-wrap justify-center gap-2 max-w-[1066px] mx-auto">
+          <HomeCard title="About TritonAI" heroCardBg={heroCardBg}>
+            <Link className={styles.cardLink} to="./topic1">
+              Topic 1
+            </Link>
+            <Link className={styles.cardLink} to="./topic2">
+              Topic 2
+            </Link>
+            <Link className={styles.cardLink} to="./topic3">
+              Topic 3
+            </Link>
+          </HomeCard>
+          <HomeCard title="Teams" heroCardBg={heroCardBg1}>
+            <Link
+              className={styles.cardLink}
+              to="./GoKart"
+            >
+              GoKart
+            </Link>
+            <Link className={styles.cardLink} to="./f1tenth">
+              F1Tenth
+            </Link>
+            <Link
+              className={styles.cardLink}
+              to="./robotx"
+            >
+              Robotx
+            </Link>
+          </HomeCard>
+          <HomeCard
+            title="Getting Involved"
+            heroCardBg={heroCardBg2}
+          >
+            <Link
+              className={styles.cardLink}
+              to="./topic4"
+            >
+              Topic4
+            </Link>
+            <Link
+              className={styles.cardLink}
+              to="./topic5"
+            >
+              Topic5
+              <span className="block bg-auto bg-[url(/img/index/right-arrow.svg)]"></span>
+            </Link>
+          </HomeCard>
+          <HomeCard title="Support TritonAI" aux heroCardBg={heroCardBg1}>
+            <Link
+              className={styles.cardLink}
+              to="./sponsors"
+            >
+              Become a Sponsor
+            </Link>
+            <Link className={styles.cardLink} to="/supportmethod2">
+              Support Method 2
+            </Link>
+            <Link
+              className={styles.cardLink}
+              to="./supportmethod3"
+            >
+              Support Method 3
+            </Link>
+            <Link
+              className={styles.cardLink}
+              to="./supportmethod4"
+            >
+              Support Method 4
+            </Link>
+          </HomeCard>
+          <HomeCard title="Stay Connected" aux heroCardBg={heroCardBg2}>
+            <Link
+              className={styles.cardLink}
+              to="https://discord.gg/ZzfBGvG3FF"
+            >
+              Discord
+            </Link>
+            <Link className={styles.cardLink} to="https://linkedin.com/company/triton-ai-ucsd">
+              LinkedIn
+            </Link>
+            
+          </HomeCard>
         </div>
       </div>
     </Layout>
