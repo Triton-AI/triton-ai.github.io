@@ -178,21 +178,15 @@ const config = {
                           { label: "RobotX", to: "teams/robotx" },
                         ],
                 },
-                { 
-                  label: "Get Involved", 
-                  to: "join",
-                  position: "right",
-                },
                 {
-                  label: "Support",
-                  to: "support",
+                  label: "Sponsors",
                   position: "right",
-                },
-                {
-                  label: "Contact",
-                  to: "contact",
-                position: "right",
-                },
+                  items: [
+                          { label: "Become a Sponsor", to: "/sponsorship" },
+                          { label: "Current Sponsors", to: "/sponsors" },
+                          ],
+                }
+
               ],
             },
       footer: {

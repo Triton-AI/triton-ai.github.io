@@ -256,6 +256,15 @@
   margin: 0;
 }
 
+/* Light Theme */
+:root[data-theme='light'] .TwoColItem span {
+  color: #1a1a1a; /* or var(--iota-black) if you define it */
+}
+
+:root[data-theme='light'] .TwoColItem p {
+  color: #444444;
+}
+
 @media screen and (max-width: 996px) {
   .sectionHeader {
     margin: 5rem auto 2.5rem auto;
@@ -285,3 +294,17 @@
     margin: 2rem 0;
   }
 }
+
+/* misc*/
+.homeCardLink {
+  display: block;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.homeCardLink:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+

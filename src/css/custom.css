@@ -21,6 +21,7 @@
   --ifm-navbar-background-color: #030f1c;
   --ifm-navbar-sidebar-link-color: #141414;
   --ifm-background-color-dark: black;
+  --ifm-navbar-link-color: white;
   --ifm-navbar-background-color: #030f1c;
   --ifm-navbar-height: 4.5rem;
   --ifm-spacing-horizontal: 1.875rem;
@@ -413,7 +414,7 @@ h4 {
 }
 
 /** Navbar overrides **/
-.navbar {
+.nvavbar {
   border-bottom: 1px solid var(--iota-line);
   background-color: var(--tai-blue);
 }
