@@ -74,7 +74,7 @@ export default function Home() {
             Explore artifical intelligence and robotics through hands-on projects and competition.
           </h3> 
            <Link
-                to="/developer/getting-started"
+                to="/latest"
                 className="button-cta"
               >
                 Latest News

@@ -164,18 +164,17 @@ const config = {
                   position: "right",
                   items: [
                           { label: "Mission Statement", to: "about/mission" },
-                          { label: "Meet the Team", to: "about/team" },
-                          { label: "Meet the Mentors", to: "about/mentors" },
                           { label: "Recognitions", to: "about/recognitions" },
                        ],
                      },
                 {
                   label: "Teams",
+                  to: "/team",
                   position: "right",
                   items: [
-                          { label: "GoKart", to: "teams/gokart" },
-                          { label: "F1Tenth", to: "teams/f1tenth" },
-                          { label: "RobotX", to: "teams/robotx" },
+                          { label: "GoKart", to: "teams/gokart/2024" },
+                          { label: "F1Tenth", to: "teams/f1tenth/2024" },
+                          { label: "RobotX", to: "teams/robotx/2024" },
                         ],
                 },
                 {
