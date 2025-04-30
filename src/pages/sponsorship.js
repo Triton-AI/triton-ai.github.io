@@ -2,9 +2,9 @@ import React from "react";
 import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
 import styles from "./sponsors.module.css";
-import goldBg from "@site/static/img/index/heroCardBg.png";
-import silverBg from "@site/static/img/index/heroCardBg1.png";
-import bronzeBg from "@site/static/img/index/heroCardBg2.png";
+import goldBg from "@site/static/img/sponsorship/TierBG_Gold.png";
+import silverBg from "@site/static/img/sponsorship/TierBG_Sliver.png";
+import bronzeBg from "@site/static/img/sponsorship/TierBG_Bronze.png";
 
 const HomeCard = ({ title, children, heroCardBg, to }) => {
   return (
