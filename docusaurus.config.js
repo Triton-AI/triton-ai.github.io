@@ -145,9 +145,9 @@ const config = {
         defaultMode: "dark",
       },
       announcementBar: {
-        id: "integrate_your_exchange",
+        id: "new_triton_ai_website",
         content:
-          'Fill in this section with whatever you want, >><a target="_blank" rel="noopener noreferrer" href="/developer/exchange-integration/">Integrate your exchange</a>. If you supported Stardust, please make sure to also <a target="_blank" rel="noopener noreferrer" href="/developer/stardust/exchanges"> migrate from Stardust</a>.',
+          '🚀 Welcome to the new <strong>Triton AI</strong> website! 🚀',
         isCloseable: false,
         backgroundColor: "#003153",
         textColor: "#FFFFFF",
