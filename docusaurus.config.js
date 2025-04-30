@@ -194,8 +194,8 @@ const config = {
           alt: "ucsd-jsoe-hdsi-tritonai Logo",
           src: "/logo/ucsd-jsoe-hdsi-tritonai.png",
         },
-        copyright: `Copyright © ${new Date().getFullYear()} <a href='https://www.google.ocm/'>Triton AI</a>, licensed under <a href="https://github.com/iotaledger/iota/blob/develop/docs/site/LICENSE">CC BY 4.0</a>. 
-                    The documentation on this website is adapted from the <a href='https://docs.iota.org/'>IOTA Documentation</a>, © 2024 by <a href='https://iota.org/'>IOTA</a>, licensed under <a href="https://github.com/MystenLabs/sui/blob/main/docs/site/LICENSE">CC BY 4.0</a>.`,
+        copyright: `Copyright © ${new Date().getFullYear()} <a href='https://triton-ai.github.io/'>Triton AI</a>, licensed under <a href="https://github.com/iotaledger/iota/blob/develop/docs/site/LICENSE">CC BY 4.0</a>. 
+                    `,
       },
       socials: [
         'https://www.youtube.com/c/iotafoundation',
