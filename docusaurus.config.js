@@ -21,7 +21,7 @@ const config = {
   title: "TritonAI",
   tagline:
     "Triton AI Website",
-  favicon: "/icons/favicon.ico",
+  favicon: "/icons/tai_website_icon.jpg",
 
   // Set the production url of your site here
   url: "https://triton-ai.github.io",
