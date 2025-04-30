@@ -35,7 +35,7 @@ export default function SponsorshipPage() {
         </div>
 
         <div className="flex flex-row flex-wrap justify-center gap-4 max-w-[1066px] mx-auto">
-          <HomeCard title="Gold" heroCardBg={goldBg} to="https://zeffy.com">
+          <HomeCard title="Gold" heroCardBg={goldBg} to="https://www.zeffy.com/en-US/donation-form/ace63637-81f0-43a8-b1e8-57d86cfa3d1f">
             <div className={styles.tierDetails}>
               <div className={`${styles.tierBadge} ${styles.gold}`}>$2000+</div>
               <ul className={styles.benefitsList}>
@@ -48,18 +48,19 @@ export default function SponsorshipPage() {
             </div>
           </HomeCard>
 
-          <HomeCard title="Silver" heroCardBg={silverBg} to="https://zeffy.com">
+          <HomeCard title="Silver" heroCardBg={silverBg} to="https://www.zeffy.com/en-US/donation-form/ace63637-81f0-43a8-b1e8-57d86cfa3d1f">
             <div className={styles.tierDetails}>
               <div className={`${styles.tierBadge} ${styles.silver}`}>$1000+</div>
               <ul className={styles.benefitsList}>
                 <li>🟡 Medium logo on Triton AI shirt and Go Kart</li>
                 <li>🌐 Medium logo on website & social media</li>
                 <li>🎥 Logo on Zoom background</li>
+                <li>🔬 Open source sponsored research</li>
               </ul>
             </div>
           </HomeCard>
 
-          <HomeCard title="Bronze" heroCardBg={bronzeBg} to="https://zeffy.com">
+          <HomeCard title="Bronze" heroCardBg={bronzeBg} to="https://www.zeffy.com/en-US/donation-form/ace63637-81f0-43a8-b1e8-57d86cfa3d1f">
             <div className={styles.tierDetails}>
               <div className={`${styles.tierBadge} ${styles.bronze}`}>$500+</div>
               <ul className={styles.benefitsList}>
@@ -74,7 +75,7 @@ export default function SponsorshipPage() {
         <div className={styles.ctaSection}>
           <p>
             Want to become a sponsor? Contact us at{" "}
-            <a href="mailto:tritonai@eng.ucsd.edu">tritonai@eng.ucsd.edu</a>
+            <a href="mailto:triton-ai@ucsd.edu">triton-ai@ucsd.edu</a>
           </p>
         </div>
       </div>
