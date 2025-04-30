@@ -414,7 +414,7 @@ h4 {
 }
 
 /** Navbar overrides **/
-.nvavbar {
+.navbar {
   border-bottom: 1px solid var(--iota-line);
   background-color: var(--tai-blue);
 }
