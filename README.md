@@ -1,9 +1,10 @@
 # Triton-AI GitHub Pages
 
 ## Instructions
-1. Clone this repository, and execute `website.sh` to start a **docker dev-container**.
+1. Clone this repository, build the docker image, and execute `website.sh` to start a **docker dev-container**.
     ```bash
     git clone https://github.com/Triton-AI/triton-ai.github.io.git
+    docker build -t tai-website .
     source website.sh
     ```
 2. After running the script, in the container, run either command:
