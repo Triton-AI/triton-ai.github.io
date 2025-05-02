@@ -34,25 +34,66 @@ export default function GoKartTeam() {
   return (
     <Layout title="Go-Kart Team – Triton AI">
       <div className={styles.container}>
-        <h1 className={styles.title}>AKS Team</h1>
+        <h1 className={styles.title}>Go-Kart Team</h1>
 
+  
         <section className={styles.sectionIntro}>
           <p>
             Since 2021, Triton AI has proudly competed in the <strong>Autonomous Karting Series (AKS)</strong>, a premier collegiate tournament hosted annually at Purdue University. The competition brings together top engineering institutions, including Purdue, UC Berkeley, and UC Riverside, to push the limits of autonomous driving technology on 1:1 scale electric go-karts.
           </p>
-          <p>
-            At Triton AI, we are advancing the limits of autonomous mobility with our custom-designed electric go-kart, equipped with state-of-the-art sensors such as depth-sensing cameras, GPS/IMU systems, and LiDAR. These technologies allow us to develop and refine cutting-edge autonomous driving techniques—from perception and localization to planning and control—under the same real-world conditions faced by industry.
-          </p>
+          <img
+            src="/img/team/gokart_1.png"
+            alt="Triton AI Go-Kart on track"
+            className={styles.gokartImage}
+          />
+        </section>
+
+
+        <section className={styles.splitSection}>
+          <div className={styles.splitText}>
+            <h2>Our Technology</h2>
+            <p>
+              At Triton AI, we are advancing the limits of autonomous mobility with our custom-designed electric go-kart, equipped with state-of-the-art sensors such as depth-sensing cameras, GPS/IMU systems, and LiDAR. These technologies allow us to develop and refine cutting-edge autonomous driving techniques—from perception and localization to planning and control—under the same real-world conditions faced by industry.
+            </p>
+          </div>
+          <div className={styles.splitImage}>
+            <img
+              src="/img/team/gokart_5.jpg"
+              alt="Sensor stack close-up"
+              className={styles.gokartImage}
+            />
+          </div>
+        </section>
+
+
+        <section className={styles.sectionIntro}>
           <p>
             Each team in AKS designs and builds its kart from the ground up, integrating perception, planning, and control systems to navigate a challenging, high-speed track autonomously. Teams are judged based on the speed of their autonomous laps, as well as how quickly and effectively their vehicles can maneuver around obstacles on the course.
           </p>
+          <img
+            src="/img/team/gokart_4.jpg"
+            alt="Go-Kart navigating a course"
+            className={styles.gokartImage}
+          />
+        </section>
+
+
+        <section className={styles.sectionIntro}>
           <p>
-            The series serves as a proving ground for our engineering decisions and offers an opportunity to benchmark our platform against some of the top robotics programs in the country. For Triton AI, AKS is more than a race—it is an opportunity to showcase innovation, learn from peer institutions, and remain on the leading edge of autonomous vehicle research. As our team continues to grow, we remain committed to pushing the boundaries of autonomy and contributing to the future of intelligent mobility.
+            The series serves as a proving ground for our engineering decisions and offers an opportunity to benchmark our platform against some of the top robotics programs in the country. For Triton AI, AKS is more than a race—it is an opportunity to showcase innovation, learn from peer institutions, and remain on the leading edge of autonomous vehicle research.
           </p>
+          <p>
+            As our team continues to grow, we remain committed to pushing the boundaries of autonomy and contributing to the future of intelligent mobility.
+          </p>
+          <img
+            src="/img/team/gokart_2.jpg"
+            alt="Go-Kart team in pit area"
+            className={styles.gokartImage}
+          />
         </section>
 
         <section>
-          <h2 className={styles.sectionTitle}>Advisor</h2>
+          <h2 className={styles.sectionTitle}>Mentors</h2>
           <div className={styles.grid}>
             <TeamMember 
               name="Jack Silberman"
@@ -74,10 +115,18 @@ export default function GoKartTeam() {
             <TeamMember name="Andrew Dunker" role="UCSD" link="#" image="/img/team/andrew.jpeg" />
             <TeamMember name="Jingli Zhou" role="UCSD" link="#" image="/img/team/jingli.jpeg" />
             <TeamMember name="Daniel Warren" role="UCSD" link="#" image="/img/team/daniel.jpeg" />
-            <TeamMember name="Kevin Shin" role="Software" link="#" image="/img/team/kevin.jpeg" />
+            <TeamMember name="Kevin Shin" role="UCSD" link="#" image="/img/team/kevin.jpeg" />
           </div>
         </section>
 
+        <section>
+          <h2 className={styles.sectionTitle}>Subteams (capstone people)</h2>
+          <div className={styles.grid}>
+            <TeamMember name="Sample Name" role="Perception" link="#" image="/img/team/placeholder.png" />
+            <TeamMember name="Sample Name" role="Electrical" link="#" image="/img/team/placeholder.png" />
+            <TeamMember name="Sample Name" role="Controls" link="#" image="/img/team/placeholder.png" />
+          </div>
+        </section>
       </div>
     </Layout>
   );

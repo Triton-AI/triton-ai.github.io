@@ -1,104 +1,186 @@
+:root {
+  --mission-text: #1f2937;
+  --mission-muted: #4b5563;
+  --mission-bg: #ffffff;
+  --mission-bg-alt: #f9fafb;
+  --mission-accent: #3b82f6;
+  --mission-border: #e5e7eb;
+}
+
+[data-theme='dark'] {
+  --mission-text: #e5e7eb;
+  --mission-muted: #9ca3af;
+  --mission-bg: #0f172a;
+  --mission-bg-alt: #1e293b;
+  --mission-accent: #00ffe3;
+  --mission-border: #334155;
+}
+
 .container {
-  padding: 2rem;
-  max-width: 1200px;
-  margin: 0 auto;
+  background-color: var(--mission-bg);
+  color: var(--mission-text);
+  padding: 4rem 1.5rem;
 }
 
 .title {
   text-align: center;
-  font-size: 2.5rem;
-  font-weight: bold;
-  margin-bottom: 2rem;
-  color: var(--ifm-color-primary);
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  color: var(--mission-text);
 }
 
+.sectionIntro {
+  max-width: 960px;
+  margin: 0 auto 3rem;
+  font-size: 1.125rem;
+  line-height: 1.85;
+  color: var(--mission-muted);
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+  padding: 0 1rem;
+}
+
+.gokartImage {
+  width: 100%;
+  max-width: 960px;
+  height: auto;
+  border-radius: 1rem;
+  display: block;
+  margin: 2.5rem auto;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.splitSection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 960px;
+  margin: 4rem auto;
+  padding: 0 1rem;
+}
+
+.splitText {
+  flex: 1;
+  min-width: 280px;
+}
+
+.splitText h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: var(--mission-text);
+}
+
+.splitText p {
+  font-size: 1.125rem;
+  line-height: 1.85;
+  color: var(--mission-muted);
+}
+
+.splitImage {
+  flex: 1;
+  min-width: 300px;
+}
 .sectionTitle {
   font-size: 2rem;
-  margin-top: 3rem;
-  margin-bottom: 1.5rem;
-  color: var(--ifm-color-primary-dark);
+  font-weight: 600;
+  color: var(--mission-text);
   text-align: center;
+  margin: 4rem auto 2rem;
 }
 
 .grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: stretch; 
   gap: 2rem;
 }
 
 .memberCard {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; 
-  flex: 1 1 18%;
-  max-width: 18%;
-  min-width: 220px;
-  box-sizing: border-box;
-  background: var(--ifm-color-scheme);
+  background-color: var(--mission-bg-alt);
+  border: 1px solid var(--mission-border);
   border-radius: 1rem;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
   padding: 2rem;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  height: auto;
-  text-align: center; 
+  width: 220px;
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+  transition: all 0.25s ease-in-out;
 }
 
 .memberCard:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15);
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
 }
 
 .memberImage {
-  width: 140px;
-  height: 140px;
-  object-fit: cover;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--mission-accent);
   margin-bottom: 1rem;
-  border: 3px solid var(--ifm-color-primary);
-}
-
-.memberInfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; 
-  flex-grow: 1;
-  width: 100%;
-  gap: 0.5rem;
 }
 
 .memberInfo h3 {
-  font-size: 1.5rem;
-  font-weight: 700;
-  margin: 0;
-  color: var(--ifm-color-primary-dark);
+  font-size: 1.25rem;
+  color: var(--mission-text);
+  margin-bottom: 0.25rem;
 }
 
 .memberInfo p {
-  font-size: 1.1rem;
-  color: var(--ifm-color-content-secondary);
+  font-size: 1rem;
+  color: var(--mission-muted);
   margin: 0;
 }
 
 .memberInfo a {
+  display: inline-block;
   margin-top: 0.5rem;
-  text-decoration: none;
-  color: inherit;
-}
-
-.linkedinIcon {
-  width: 28px;
-  height: 28px;
   color: #0077b5;
-  transition: transform 0.2s ease, color 0.2s ease;
+  transition: transform 0.2s ease;
 }
 
-.linkedinIcon:hover {
+.memberInfo a:hover {
   transform: scale(1.2);
   color: #005582;
 }
 
+.gokartGallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.gokartGallery img {
+  max-width: 300px;
+  width: 100%;
+  border-radius: 0.75rem;
+  object-fit: cover;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+@media screen and (max-width: 768px) {
+  .splitSection {
+    flex-direction: column;
+  }
+
+  .memberCard {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .gokartImage {
+    margin: 2rem auto;
+  }
+
+  .sectionTitle {
+    font-size: 1.75rem;
+  }
+}
 
