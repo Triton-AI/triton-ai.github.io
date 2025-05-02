@@ -188,15 +188,6 @@ const config = {
 
               ],
             },
-      footer: {
-        style: "dark",
-        logo: {
-          alt: "ucsd-jsoe-hdsi-tritonai Logo",
-          src: "/logo/ucsd-jsoe-hdsi-tritonai.png",
-        },
-        copyright: `Copyright © ${new Date().getFullYear()} <a href='https://triton-ai.github.io/'>Triton AI</a>, licensed under <a href="https://github.com/iotaledger/iota/blob/develop/docs/site/LICENSE">CC BY 4.0</a>. 
-                    `,
-      },
       socials: [
         'https://www.youtube.com/c/iotafoundation',
         'https://www.github.com/iotaledger/',
