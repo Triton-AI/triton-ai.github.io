@@ -113,6 +113,21 @@
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
+.verticalImageGroup {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.verticalImage {
+  width: 47%;
+  max-height: 420px;
+  object-fit: cover;
+  border-radius: 0.75rem;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
 .sectionTitle {
   text-align: center;
   font-size: 2rem;

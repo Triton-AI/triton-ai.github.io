@@ -68,10 +68,14 @@ export default function GoKartTeam() {
             </p>
           </div>
           <div className={styles.splitImage}>
-            <img src="/img/team/gokart_4.jpg" alt="Course navigation" />
+            <div className={styles.verticalImageGroup}>
+              <img
+                  src="/img/team/gokart_working.png"
+                  alt="3d printing"
+                  className={styles.verticalImage}/>
+              </div>
           </div>
         </section>
-
         <section className={styles.sectionIntro}>
           <p>
             The series serves as a proving ground for our engineering decisions and offers an opportunity to benchmark our platform against some of the top robotics programs in the country. For Triton AI, AKS is more than a race, it is an opportunity to showcase innovation, learn from peer institutions, and remain on the leading edge of autonomous vehicle research.
