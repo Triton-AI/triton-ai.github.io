@@ -1,0 +1,167 @@
+:root {
+  --mission-text: #1f2937;
+  --mission-muted: #4b5563;
+  --mission-bg: #ffffff;
+  --mission-bg-alt: #f9fafb;
+  --mission-accent: #3b82f6;
+  --mission-border: #e5e7eb;
+}
+
+[data-theme='dark'] {
+  --mission-text: #e5e7eb;
+  --mission-muted: #9ca3af;
+  --mission-bg: #0f172a;
+  --mission-bg-alt: #1e293b;
+  --mission-accent: #00ffe3;
+  --mission-border: #334155;
+}
+
+/* === Hero === */
+.hero {
+  background-color: var(--mission-bg);
+  color: var(--mission-text);
+  padding: 6rem 2rem 4rem;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  color: var(--mission-muted);
+  max-width: 720px;
+  margin: 0 auto;
+  line-height: 1.75;
+}
+
+/* === Section === */
+.section,
+.sectionAlt {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+.section h2,
+.sectionAlt h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: var(--mission-text);
+}
+
+.section p,
+.sectionAlt p {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: var(--mission-muted);
+}
+
+.sectionAlt {
+  background-color: var(--mission-bg-alt);
+  border-top: 1px solid var(--mission-border);
+  border-bottom: 1px solid var(--mission-border);
+}
+
+/* === Project Cards === */
+.projectCards {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.projectCard {
+  width: 280px;
+  background: var(--mission-bg);
+  border: 1px solid var(--mission-border);
+  border-radius: 0.75rem;
+  overflow: hidden;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.projectCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.projectImage {
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+}
+
+.projectTitle {
+  font-size: 1.125rem;
+  font-weight: 600;
+  padding: 1rem;
+  color: var(--mission-text);
+}
+
+/* === Call to Action === */
+.callout {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: var(--mission-bg-alt);
+  border-top: 1px solid var(--mission-border);
+}
+
+.callout h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--mission-text);
+}
+
+.callout p {
+  font-size: 1.125rem;
+  color: var(--mission-muted);
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--mission-accent);
+  color: white;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #2563eb;
+}
+
+/* === Responsive === */
+@media screen and (max-width: 768px) {
+  .projectCards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero h1 {
+    font-size: 2.25rem;
+  }
+
+  .hero p {
+    font-size: 1.125rem;
+  }
+
+  .section,
+  .sectionAlt {
+    padding: 3rem 1.25rem;
+  }
+}
+

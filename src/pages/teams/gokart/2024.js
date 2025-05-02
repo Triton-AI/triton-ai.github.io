@@ -15,9 +15,6 @@ const LinkedInIcon = () => (
   </svg>
 );
 
-
-
-
 const TeamMember = ({ name, role, link, image }) => (
   <div className={styles.memberCard}>
     {image && <img src={image} alt={name} className={styles.memberImage} />}
@@ -33,91 +30,56 @@ const TeamMember = ({ name, role, link, image }) => (
   </div>
 );
 
-export default function Team() {
+export default function GoKartTeam() {
   return (
-    <Layout title="Meet the Team">
-      <div className={styles.container}> 
-        
+    <Layout title="Go-Kart Team – Triton AI">
+      <div className={styles.container}>
+        <h1 className={styles.title}>AKS Team</h1>
+
+        <section className={styles.sectionIntro}>
+          <p>
+            Since 2021, Triton AI has proudly competed in the <strong>Autonomous Karting Series (AKS)</strong>, a premier collegiate tournament hosted annually at Purdue University. The competition brings together top engineering institutions, including Purdue, UC Berkeley, and UC Riverside, to push the limits of autonomous driving technology on 1:1 scale electric go-karts.
+          </p>
+          <p>
+            At Triton AI, we are advancing the limits of autonomous mobility with our custom-designed electric go-kart, equipped with state-of-the-art sensors such as depth-sensing cameras, GPS/IMU systems, and LiDAR. These technologies allow us to develop and refine cutting-edge autonomous driving techniques—from perception and localization to planning and control—under the same real-world conditions faced by industry.
+          </p>
+          <p>
+            Each team in AKS designs and builds its kart from the ground up, integrating perception, planning, and control systems to navigate a challenging, high-speed track autonomously. Teams are judged based on the speed of their autonomous laps, as well as how quickly and effectively their vehicles can maneuver around obstacles on the course.
+          </p>
+          <p>
+            The series serves as a proving ground for our engineering decisions and offers an opportunity to benchmark our platform against some of the top robotics programs in the country. For Triton AI, AKS is more than a race—it is an opportunity to showcase innovation, learn from peer institutions, and remain on the leading edge of autonomous vehicle research. As our team continues to grow, we remain committed to pushing the boundaries of autonomy and contributing to the future of intelligent mobility.
+          </p>
+        </section>
+
         <section>
-          <h2 className={styles.sectionTitle}>Mentors</h2>
+          <h2 className={styles.sectionTitle}>Advisor</h2>
           <div className={styles.grid}>
             <TeamMember 
               name="Jack Silberman"
               role="Engineering Lecturer at UCSD" 
-              link="/in/jacksilberman"
-              image="/img/team/silberman.png"/>
-          </div>
-        </section>
-
-
-        <section>
-          <h2 className={styles.sectionTitle}>Section Title</h2>
-          <div className={styles.grid}>
-                        <TeamMember 
-              name="Matthew Pope"
-              role="UCSD" 
-              link="/in/jacksilberman"
-              image="/img/team/pope.jpeg"/>
-                        <TeamMember 
-              name="Winston Chou"
-              role="UCSD" 
-              link="/in/jacksilberman"
-              image="/img/team/winston.jpeg"/>
-                        <TeamMember 
-              name="Aryan Palaskar"
-              role="UCSD" 
-              link="/in/jacksilberman"
-              image="/img/team/aryan.jpeg"/>
-                        <TeamMember 
-              name="Jeff Bratman"
-              role="UCSD" 
-              link="/in/jacksilberman"
-              image="/img/team/jeff.jpg"/>
-                        <TeamMember 
-              name="Alexander Haken"
-              role="UCSD" 
-              link="/in/jacksilberman"
-              image="/img/team/alex.jpeg"/>
-                        <TeamMember 
-              name="Andrew Dunker"
-              role="UCSD" 
-              link="/in/jacksilberman"
-              image="/img/team/andrew.jpeg"/>
-                        <TeamMember 
-              name="Jingli Zhou"
-              role="UCSD" 
-              link="/in/jacksilberman"
-              image="/img/team/jingli.jpeg"/>
-                      <TeamMember 
-              name="Daniel Warren"
-              role="UCSD" 
-              link="/in/jacksilberman"
-              image="/img/team/daniel.jpeg"/>
-                        <TeamMember 
-              name="Kevin Shin"
-              role="UCSD" 
-              link="/in/jacksilberman"
-              image="/img/team/kevin.jpeg"/>
+              link="https://www.linkedin.com/in/jacksilberman"
+              image="/img/team/silberman.png"
+            />
           </div>
         </section>
 
         <section>
-          <h2 className={styles.sectionTitle}>Section Title</h2>
+          <h2 className={styles.sectionTitle}>Core Members</h2>
           <div className={styles.grid}>
-                        <TeamMember 
-              name="Jack Silberman"
-              role="Engineering Lecturer at UCSD" 
-              link="/in/jacksilberman"
-              image="/img/team/silberman.png"/>
-                        <TeamMember 
-              name="Jack Silberman"
-              role="Engineering Lecturer at UCSD" 
-              link="/in/jacksilberman"
-              image="/img/team/silberman.png"/>
-        </div>
+            <TeamMember name="Matthew Pope" role="UCSD" link="#" image="/img/team/pope.jpeg" />
+            <TeamMember name="Winston Chou" role="UCSD" link="#" image="/img/team/winston.jpeg" />
+            <TeamMember name="Aryan Palaskar" role="UCSD" link="#" image="/img/team/aryan.jpeg" />
+            <TeamMember name="Jeff Bratman" role="UCSD" link="#" image="/img/team/jeff.jpg" />
+            <TeamMember name="Alexander Haken" role="UCSD" link="#" image="/img/team/alex.jpeg" />
+            <TeamMember name="Andrew Dunker" role="UCSD" link="#" image="/img/team/andrew.jpeg" />
+            <TeamMember name="Jingli Zhou" role="UCSD" link="#" image="/img/team/jingli.jpeg" />
+            <TeamMember name="Daniel Warren" role="UCSD" link="#" image="/img/team/daniel.jpeg" />
+            <TeamMember name="Kevin Shin" role="Software" link="#" image="/img/team/kevin.jpeg" />
+          </div>
         </section>
 
       </div>
     </Layout>
   );
 }
+
