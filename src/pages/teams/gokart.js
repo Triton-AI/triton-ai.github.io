@@ -49,7 +49,7 @@ export default function GoKartTeam() {
           <div className={styles.splitImage}>
             <div className={styles.verticalImageGroup}>
               <img
-                  src="/img/team/gokart_working.png"
+                  src="/img/team/gokart_6.jpg"
                   alt="3d printing"
                   className={styles.verticalImage}/>
               </div>

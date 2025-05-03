@@ -420,8 +420,12 @@ h4 {
 }
 
 .navbar__title {
-  width: 10px;
+  width: auto;
+  max-width: 160px;
+  overflow: hidden;
+  white-space: nowrap;
 }
+
 
 .navbar__toggle path {
   stroke: var(--iota-white);
@@ -432,9 +436,12 @@ h4 {
 }
 
 .navbar__items .navbar__brand {
-  width: 7%;
-  color: rgba(255, 255, 255, 0.7);
+  width: auto;
+  max-width: 160px;
+  display: flex;
+  align-items: center;
 }
+
 
 .navbar__items .navbar__item.navbar__link {
   /* font-family: var(--headerFont); */

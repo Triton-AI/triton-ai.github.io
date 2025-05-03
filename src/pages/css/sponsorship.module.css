@@ -23,12 +23,13 @@
 }
 
 .cardWrapper {
-  display: block;
-  width: 350px;
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   border-radius: 1rem;
   will-change: transform;
-  flex: 0 0 auto;
+  flex: 1 1 auto;
 }
 
 .cardWrapper:hover {
@@ -62,15 +63,10 @@
 
 .tierRow {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap; /* Wrap on smaller screens */
   justify-content: center;
   gap: 2rem;
-  overflow-x: auto;
   padding: 1rem 2rem;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-  position: relative;
-  z-index: 1;
 }
 
 .tierRow::-webkit-scrollbar {
@@ -172,4 +168,16 @@
   font-size: 1.5rem;
   padding: 2rem;
   border-radius: 1rem;
+}
+
+@media (min-width: 768px) {
+  .tierRow {
+    flex-wrap: nowrap;
+    overflow-x: visible;
+  }
+
+  .cardWrapper {
+    width: 350px;
+    flex: 0 0 auto;
+  }
 }
