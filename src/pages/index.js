@@ -51,24 +51,29 @@ export default function Home() {
             <p className={styles.heroSubtitle}>
               Building robots that learn, compete, and inspire.
             </p>
-            <div className={styles.scrollIndicator} id="scroll-arrow">
-              ⌄
-            </div>
+            <div
+                className={styles.scrollIndicator}
+                id="scroll-arrow"
+                onClick={() => {
+                const el = document.getElementById("nextSection");
+                if (el) el.scrollIntoView({ behavior: "smooth" });
+                }}>
+                 ⌄
+          </div>
+
           </div>
         </div>
 
         {/* Intro */}
-        <div className={styles.sectionHeader}>
-          <h3>
-            We're not just a club — we're a robotics team driven by curiosity
-            and results. <br />
-            Explore artificial intelligence and robotics through hands-on
-            projects and competition.
-          </h3>
-          <Link to="/latest" className="button-cta">
-            Latest News
-          </Link>
-        </div>
+          <div id="nextSection" className={styles.sectionHeader}>
+            <h3>
+              We're not just a club — we're a robotics team driven by curiosity...
+            </h3>
+            <Link to="/latest" className="button-cta">
+             Latest News
+            </Link>
+          </div>
+
 
         {/* TwoColParagraph */}
         <div className={styles.TwoColParagraph}>

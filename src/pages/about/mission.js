@@ -70,7 +70,7 @@ export default function MissionPage() {
           We’re more than just a robotics club—we’re a community of builders, dreamers, and engineers.
           Whether you're a student eager to join or a company looking to support emerging talent, we’d love to connect.
         </p>
-        <Link className={styles.button} to="/contact">Connect With Us</Link>
+        <Link className={styles.button} to="/contacts">Connect With Us</Link>
       </section>
     </Layout>
   );
