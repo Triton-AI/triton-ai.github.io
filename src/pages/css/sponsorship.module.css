@@ -6,7 +6,7 @@
 
 .hero {
   text-align: center;
-  margin-bottom: 4rem;
+  margin: 5rem 0 3rem;
 }
 
 .hero h1 {
@@ -22,76 +22,19 @@
   margin: 0 auto 2rem auto;
 }
 
-.ctaButton {
-  background-color: var(--ifm-color-primary);
-  color: white;
-  padding: 0.75rem 2rem;
-  font-weight: 600;
-  text-decoration: none;
-  border-radius: 8px;
-  display: inline-block;
-  transition: background-color 0.2s ease;
-}
-
-.ctaButton:hover {
-  background-color: var(--ifm-color-primary-dark);
-}
-
-.tiers {
-  margin-top: 4rem;
-}
-
-.tierSection {
-  margin-bottom: 4rem;
-}
-
-.tierTitle {
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  text-align: center;
-  color: var(--ifm-heading-color);
-}
-
-.logoGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  gap: 2rem;
-  align-items: center;
-  justify-items: center;
-}
-
-.logoCard {
-  border-radius: 12px;
-  height: 140px;
-  width: 100%;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.logoCard img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
-.hero {
-  text-align: center;
-  margin-top: 5rem;
-  margin-bottom: 3rem;
-}
-
 .cardWrapper {
   display: block;
   width: 350px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   border-radius: 1rem;
+  will-change: transform;
+  flex: 0 0 auto;
 }
 
 .cardWrapper:hover {
   transform: scale(1.04);
-  box-shadow: 0 0 20px rgba(110, 253, 231, 0.2);
+  box-shadow: 0 0 20px rgba(110, 253, 231, 0.3);
+  z-index: 10;
 }
 
 .card {
@@ -117,15 +60,26 @@
   font-weight: 400;
 }
 
-.ctaSection {
-  margin-top: 4rem;
-  text-align: center;
-  color: var(--ifm-heading-color);
-  font-size: 1.5rem;
-  padding: 2rem;
-  border-radius: 1rem;
+.tierRow {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 2rem;
+  overflow-x: auto;
+  padding: 1rem 2rem;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  position: relative;
+  z-index: 1;
 }
 
+.tierRow::-webkit-scrollbar {
+  display: none;
+}
+
+.cardWrapper:last-child {
+  margin-right: 2rem; 
+}
 
 .tierDetails {
   display: flex;
@@ -143,6 +97,13 @@
   width: fit-content;
   background-color: #444;
   color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease;
+  z-index: 2;
+}
+
+.tierBadge:hover {
+  transform: translateY(-2px);
 }
 
 .tierBadge.gold {
@@ -170,3 +131,45 @@
   font-size: 0.95rem;
 }
 
+.handbookSection {
+  margin-top: 5rem;
+  padding: 3rem 1rem;
+  background: var(--ifm-background-color);
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(110, 253, 231, 0.05);
+  text-align: center;
+}
+
+.handbookSection h2 {
+  font-size: 2rem;
+  color: var(--ifm-color-primary);
+  margin-bottom: 1rem;
+}
+
+.handbookSection p {
+  color: var(--ifm-color-content-secondary);
+  font-size: 1.125rem;
+  max-width: 700px;
+  margin: 0 auto 2rem auto;
+}
+
+.handbookSection .button {
+  font-size: 1rem;
+  padding: 0.75rem 1.75rem;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.handbookSection .button:hover {
+  transform: translateY(-2px);
+}
+
+.ctaSection {
+  margin-top: 4rem;
+  text-align: center;
+  color: var(--ifm-heading-color);
+  font-size: 1.5rem;
+  padding: 2rem;
+  border-radius: 1rem;
+}

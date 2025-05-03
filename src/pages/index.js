@@ -6,7 +6,7 @@ import React from "react";
 
 import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
-import styles from "./index.module.css";
+import styles from ".//css/index.module.css";
 import heroCardBg from "@site/static/img/index/PORFILEPIC2.jpg";
 import heroCardBg1 from "@site/static/img/index/PORFILEPIC2.jpg";
 import heroCardBg2 from "@site/static/img/index/PORFILEPIC2.jpg";
@@ -114,31 +114,31 @@ export default function Home() {
           <HomeCard 
             title="About TritonAI" 
             heroCardBg={heroCardBg}
-            to="/about"
+            to="/about/mission"
           >
           </HomeCard>
           <HomeCard 
             title="Teams" 
             heroCardBg={GOKART}
-            to="/about"
+            to="/teams"
             >
           </HomeCard>
           <HomeCard
             title="Getting Involved"
             heroCardBg={F1TENTH}
-            to="/about"
+            to="/recruitment"
           >
           </HomeCard>
           <HomeCard 
             title="Support TritonAI" 
             heroCardBg={ROBOTX}
-            to="/about"
+            to="/sponsorship"
           >
           </HomeCard>
           <HomeCard 
             title="Stay Connected"
             heroCardBg={IAC}
-            to="/about"
+            to="/contacts"
           >
         </HomeCard>
         </div>

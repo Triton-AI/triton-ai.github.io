@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
-import styles from "./sponsors.module.css";
+import styles from ".//css/sponsorship.module.css";
 import goldBg from "@site/static/img/sponsorship/TierBG_Gold.png";
 import silverBg from "@site/static/img/sponsorship/TierBG_Sliver.png";
 import bronzeBg from "@site/static/img/sponsorship/TierBG_Bronze.png";
@@ -34,7 +34,7 @@ export default function SponsorshipPage() {
           </p>
         </div>
 
-        <div className="flex flex-row flex-wrap justify-center gap-4 max-w-[1066px] mx-auto">
+        <div className={styles.tierRow}>
           <HomeCard title="Gold" heroCardBg={goldBg} to="https://www.zeffy.com/en-US/donation-form/ace63637-81f0-43a8-b1e8-57d86cfa3d1f">
             <div className={styles.tierDetails}>
               <div className={`${styles.tierBadge} ${styles.gold}`}>$2000+</div>
@@ -72,14 +72,30 @@ export default function SponsorshipPage() {
           </HomeCard>
         </div>
 
+        <div className={styles.handbookSection}>
+          <p className="text-center text-gray max-w-2xl mx-auto">
+            For a full breakdown of long-term partner benefits, branding visibility, recruitment pipelines, and team access, view our detailed handbook.
+          </p>
+          <div className="text-center mt-6">
+            <a
+              className="button button--primary"
+              href="https://google.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Full Sponsor Handbook
+            </a>
+          </div>
+        </div>
+
         <div className={styles.ctaSection}>
           <p>
-            Want to become a sponsor? Contact us at{" "}
+            Want to become a sponsor? Contact us at {" "}
             <a href="mailto:triton-ai@ucsd.edu">triton-ai@ucsd.edu</a>
           </p>
         </div>
+
       </div>
     </Layout>
-  );
+  )
 }
-

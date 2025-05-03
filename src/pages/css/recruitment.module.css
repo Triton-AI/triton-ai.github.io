@@ -1,0 +1,89 @@
+.container {
+  padding: 4rem 1.5rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--ifm-color-primary);
+}
+
+.hero p {
+  font-size: 1.125rem;
+  color: var(--ifm-color-content-secondary);
+  line-height: 1.8;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background: var(--ifm-background-color);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.05);
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  color: var(--ifm-heading-color);
+  gap: 0.5rem;
+}
+
+.form input,
+.form textarea {
+  padding: 0.75rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  background: var(--ifm-background-surface-color);
+  color: var(--ifm-color-content);
+}
+
+.form input[type="file"] {
+  padding: 0.5rem;
+}
+
+.form button {
+  background: var(--ifm-color-primary);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.form button:hover {
+  background: var(--ifm-color-primary-dark);
+}
+
+.closedBox {
+  padding: 2.5rem;
+  background-color: var(--ifm-background-color);
+  border: 2px dashed var(--ifm-color-emphasis-300);
+  border-radius: 1rem;
+  text-align: center;
+  color: var(--ifm-color-content-secondary);
+  font-size: 1.25rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.closedBox h2 {
+  color: var(--ifm-color-primary);
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+

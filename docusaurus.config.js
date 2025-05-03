@@ -169,13 +169,17 @@ const config = {
                      },
                 {
                   label: "Teams",
-                  to: "/team",
+                  to: "/teams",
                   position: "right",
                   items: [
-                          { label: "GoKart", to: "teams/gokart/2024" },
-                          { label: "F1Tenth", to: "teams/f1tenth/2024" },
-                          { label: "RobotX", to: "teams/robotx/2024" },
+                          { label: "GoKart", to: "teams/gokart" },
+                          { label: "F1Tenth", to: "teams/f1tenth" },
                         ],
+                },
+                {
+                  label: "Members",
+                  to: "/members",
+                  position: "right"
                 },
                 {
                   label: "Sponsors",
@@ -184,8 +188,12 @@ const config = {
                           { label: "Become a Sponsor", to: "/sponsorship" },
                           { label: "Current Sponsors", to: "/sponsors" },
                           ],
-                }
-
+                },
+                {
+                  label: "Contact Us",
+                  to: "/contacts",
+                  position: "right"
+                },
               ],
             },
       socials: [

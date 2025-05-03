@@ -2,7 +2,6 @@
   --mission-text: #1f2937;
   --mission-muted: #4b5563;
   --mission-bg: #ffffff;
-  --mission-bg-alt: #f9fafb;
   --mission-accent: #3b82f6;
   --mission-border: #e5e7eb;
 }
@@ -11,32 +10,46 @@
   --mission-text: #e5e7eb;
   --mission-muted: #9ca3af;
   --mission-bg: #0f172a;
-  --mission-bg-alt: #1e293b;
   --mission-accent: #00ffe3;
   --mission-border: #334155;
 }
 
 /* === Hero === */
 .hero {
-  background-color: var(--mission-bg);
-  color: var(--mission-text);
+  position: relative;
+  background: url(/img/team/gokart_3.jpg) center/cover no-repeat;
   padding: 6rem 2rem 4rem;
   text-align: center;
+  color: white;
+}
+
+.heroOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+  z-index: 1;
+}
+
+.heroInner {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .hero h1 {
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 1.25rem;
+  color: white;
 }
 
 .hero p {
   font-size: 1.25rem;
-  color: var(--mission-muted);
-  max-width: 720px;
-  margin: 0 auto;
+  color: #d1d5db;
   line-height: 1.75;
 }
+
 
 /* === Section === */
 .section,
@@ -62,7 +75,6 @@
 }
 
 .sectionAlt {
-  background-color: var(--mission-bg-alt);
   border-top: 1px solid var(--mission-border);
   border-bottom: 1px solid var(--mission-border);
 }

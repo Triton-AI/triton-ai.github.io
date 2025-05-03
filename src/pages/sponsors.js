@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '@theme/Layout';
-import styles from './sponsors.module.css';
+import styles from './/css/sponsors.module.css';
 
 const sponsors = {
   gold: [

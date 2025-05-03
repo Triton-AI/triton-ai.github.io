@@ -20,7 +20,7 @@
 }
 
 .backgroundImage {
-  background: black url(../../static/img/index/image.jpg);
+  background: black url(../../../static/img/index/image.jpg);
   height: 33rem;
   margin-top: -10rem;
   background-repeat: no-repeat;

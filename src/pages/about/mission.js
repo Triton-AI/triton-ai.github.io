@@ -11,8 +11,8 @@ export default function MissionPage() {
   return (
     <Layout title="Our Mission – Triton AI" description="Discover Triton AI’s journey, technology, and vision for hands-on robotics and AI education.">
       <div className={styles.hero}>
-        <div className={styles.heroInner}>
-          <h1>Advancing AI Through Hands-On Learning</h1>
+        <div className={styles.heroOverlay} />
+         <div className={styles.heroInner}>
           <p>Triton AI empowers students at UC San Diego to learn artificial intelligence and robotics by building real systems—from the ground up.</p>
         </div>
       </div>

@@ -1,0 +1,235 @@
+:root {
+  --mission-text: #1f2937;
+  --mission-muted: #4b5563;
+  --mission-bg: #ffffff;
+  --mission-bg-alt: #f9fafb;
+  --mission-accent: #3b82f6;
+  --mission-border: #e5e7eb;
+}
+
+[data-theme='dark'] {
+  --mission-text: #e5e7eb;
+  --mission-muted: #9ca3af;
+  --mission-bg: #0f172a;
+  --mission-bg-alt: #1e293b;
+  --mission-accent: #00ffe3;
+  --mission-border: #334155;
+}
+
+.container {
+  color: var(--mission-text);
+  padding: 3rem 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.heroBanner {
+  background: url(/img/team/gokart_3.jpg) center/cover no-repeat;
+  height: 520px;
+  position: relative;
+}
+
+.heroOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.heroText {
+  z-index: 1;
+  color: white;
+  max-width: 700px;
+  padding: 2rem;
+}
+
+.heroText h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.heroText p {
+  font-size: 1.25rem;
+  color: #d1d5db;
+  line-height: 1.8;
+}
+
+.sectionIntro {
+  margin: 3rem auto;
+  font-size: 1.125rem;
+  line-height: 1.85;
+  color: var(--mission-muted);
+}
+
+.gokartImage {
+  width: 100%;
+  max-width: 960px;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.splitSection, .splitSectionAlt {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 4rem auto;
+  align-items: center;
+}
+
+.splitSectionAlt {
+  flex-direction: row-reverse;
+}
+
+.splitText {
+  flex: 1;
+  min-width: 280px;
+}
+
+.splitText h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.splitText p {
+  color: var(--mission-muted);
+  font-size: 1.125rem;
+}
+
+.splitImage {
+  flex: 1;
+  min-width: 300px;
+}
+
+.splitImage img {
+  width: 100%;
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.verticalImageGroup {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.verticalImage {
+  width: 47%;
+  max-height: 420px;
+  object-fit: cover;
+  border-radius: 0.75rem;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.sectionTitle {
+  text-align: center;
+  font-size: 2rem;
+  margin: 4rem 0 2rem;
+  font-weight: 600;
+}
+
+.sectionIntro {
+  max-width: 960px;
+  margin: 5rem auto;
+  padding: 2rem;
+  border-left: 4px solid var(--mission-accent);
+  background-color: var(--mission-bg-alt);
+  color: var(--mission-muted);
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.3s ease;
+}
+
+.sectionIntro p {
+  font-size: 1.125rem;
+  line-height: 1.85;
+  margin-bottom: 1.5rem;
+  color: var(--mission-text);
+}
+
+@media screen and (max-width: 768px) {
+  .sectionIntro {
+    padding: 1.5rem;
+    margin: 3rem 1rem;
+  }
+}
+
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.memberCard {
+  background: var(--mission-bg-alt);
+  border: 1px solid var(--mission-border);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  width: 220px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  transition: all 0.25s ease-in-out;
+}
+
+.memberCard:hover {
+  transform: translateY(-6px);
+}
+
+.memberImage {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--mission-accent);
+  margin-bottom: 1rem;
+}
+
+.memberInfo h3 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.memberInfo p {
+  font-size: 1rem;
+  color: var(--mission-muted);
+}
+
+.linkedinIcon {
+  margin-top: 0.5rem;
+  color: #0077b5;
+  transition: transform 0.2s ease;
+}
+
+.linkedinIcon:hover {
+  transform: scale(1.2);
+  color: #005582;
+}
+
+@media screen and (max-width: 768px) {
+  .splitSection,
+  .splitSectionAlt {
+    flex-direction: column;
+  }
+
+  .memberCard {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .heroText h1 {
+    font-size: 2rem;
+  }
+
+  .heroText p {
+    font-size: 1rem;
+  }
+}
+
