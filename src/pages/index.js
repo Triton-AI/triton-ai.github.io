@@ -56,15 +56,17 @@ export default function Home() {
         background: "var(--iota-black)",
       }}
     >
-      {" "}
+{" "}
       <div className={styles.container}>
-        <div className={styles.backgroundImage}>
-          <div className="w-full mt-24 mb-12 mx-auto">
-            <div className={styles.heroText}>
-              <h1 className="text-5xl center-text text-white">
-               
-              </h1>
-            </div>
+        <div className={styles.heroFull} id = "hero">
+          <div className={styles.heroOverlay}></div>
+          <div className={styles.heroContent}>
+            <img src="/logo/LOGO Blue.png" alt="TritonAI Logo" className={styles.heroLogo} />
+            <h1 className={styles.heroTitle}>Triton AI</h1>
+            <p className={styles.heroSubtitle}>
+              Building robots that learn, compete, and inspire.
+            </p>
+            <div className={styles.scrollIndicator} id="scroll-arrow">⌄</div>
           </div>
         </div>
  
