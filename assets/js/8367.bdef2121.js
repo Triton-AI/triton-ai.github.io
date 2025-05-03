@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktriton_docs=self.webpackChunktriton_docs||[]).push([[8367],{8367:(e,c,t)=>{t.d(c,{createArchitectureServices:()=>r.S});var r=t(3258);t(9073)}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktriton_docs=self.webpackChunktriton_docs||[]).push([[2130],{936:s=>{s.exports=JSON.parse('{"blogBasePath":"/news","blogTitle":"Media & Coverage","authorsListPath":"/news/authors"}')}}]);
