@@ -68,6 +68,16 @@ const config = {
       };
     },
     [
+  '@docusaurus/plugin-content-blog',
+  {
+    id: 'news',
+    routeBasePath: 'news', 
+    path: './news',
+    blogTitle: 'Media & Coverage',
+    blogSidebarTitle: 'All Posts',
+  },
+    ],
+    [
       '@docusaurus/plugin-client-redirects',
       {
         createRedirects(existingPath) {
@@ -90,23 +100,21 @@ const config = {
     'plugin-image-zoom'
   ],
   presets: [
-    [
-      "classic",
-      {
-        docs: {
-        path: "pages",
-        routeBasePath: "pages", // URL path prefix
-        sidebarPath: false,
+  [
+    "classic",
+    {
+      docs: false,
+      // 🚫 docs: { ... } — delete this
+      theme: {
+        customCss: [
+          require.resolve("./src/css/fonts.css"),
+          require.resolve("./src/css/custom.css"),
+        ],
       },
-        theme: {
-          customCss: [
-            require.resolve("./src/css/fonts.css"),
-            require.resolve("./src/css/custom.css"),
-            ],
-          },
-        },
-      ],
+    },
   ],
+],
+
   stylesheets: [
     {
       href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap",
@@ -136,11 +144,6 @@ const config = {
         indexName: 'tritonAI',
       },*/
       image: "img/iota-doc-og.png",
-      docs: {
-        sidebar: {
-          autoCollapseCategories: false,
-        },
-      },
       colorMode: {
         defaultMode: "dark",
       },
