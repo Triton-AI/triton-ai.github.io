@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://triton-ai.github.io/news</id>
+    <title>TritonAI Blog</title>
+    <updated>2025-05-02T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://triton-ai.github.io/news"/>
+    <subtitle>TritonAI Blog</subtitle>
+    <icon>https://triton-ai.github.io/icons/tai_website_icon.jpg</icon>
+    <entry>
+        <title type="html"><![CDATA[Triton AI Featured in UCSD News]]></title>
+        <id>https://triton-ai.github.io/news/2025/05/02/triton-news</id>
+        <link href="https://triton-ai.github.io/news/2025/05/02/triton-news"/>
+        <updated>2025-05-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Triton AI is spotlighted by UCSD for AI research contributions.]]></summary>
+        <content type="html"><![CDATA[<p>This is the content for the post.</p><button class="button hiddenForm">Give Feedback</button>]]></content>
+        <category label="media" term="media"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Triton AI Featured in UCSD News]]></title>
+        <id>https://triton-ai.github.io/news/triton-feature</id>
+        <link href="https://triton-ai.github.io/news/triton-feature"/>
+        <updated>2025-05-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Triton AI is spotlighted by UCSD for AI research contributions.]]></summary>
+        <content type="html"><![CDATA[<p>This is the content for the post. You can include <strong>markdown</strong>, images, and more.</p><button class="button hiddenForm">Give Feedback</button>]]></content>
+        <category label="media" term="media"/>
+    </entry>
+</feed>
