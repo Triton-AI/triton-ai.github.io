@@ -182,7 +182,10 @@ const config = {
                 {
                   label: "Members",
                   to: "/members",
-                  position: "right"
+                  position: "right",
+                  items: [
+                          { label: "Recruitment", to: "/recruitment" }
+                      ],
                 },
                 {
                   label: "Sponsors",
