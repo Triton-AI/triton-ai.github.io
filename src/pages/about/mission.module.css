@@ -16,9 +16,12 @@
 
 /* === Hero === */
 .hero {
+  background: url(/img/team/tai_old.jpg) center/cover no-repeat;
+  height: 520px;
   position: relative;
-  background: url(/img/team/gokart_3.jpg) center/cover no-repeat;
-  padding: 6rem 2rem 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   color: white;
 }
@@ -144,7 +147,7 @@
   display: inline-block;
   margin-top: 2rem;
   padding: 0.75rem 1.5rem;
-  background-color: var(--mission-accent);
+  background-color: var(--ifm-color-primary); 
   color: white;
   border-radius: 0.5rem;
   font-weight: 600;

@@ -6,7 +6,7 @@ import useGlobalData from "@docusaurus/useGlobalData";
 import styles from "./css/index.module.css";
 
 import heroCardBg from "@site/static/img/index/PORFILEPIC2.jpg";
-import GOKART from "@site/static/img/index/gokart.jpg";
+import GOKART from "@site/static/img/team/gokart_blind.jpg";
 import F1TENTH from "@site/static/img/index/robocarportrait.jpg";
 import ROBOTX from "@site/static/img/index/robotxteamphoto.jpg";
 import IAC from "@site/static/img/index/iac.jpg";

@@ -17,54 +17,55 @@ export default function F1TenthTeam() {
       <div className={styles.container}>
         <section className={styles.splitSection}>
           <div className={styles.splitText}>
-            <h2>Since 2021</h2>
+            <h2>Quarterly Tournaments</h2>
             <p>
-              Triton AI has proudly competed in the <strong>Autonomous Karting Series (AKS)</strong>, a premier collegiate tournament hosted annually at Purdue University. The competition brings together top engineering institutions, including Purdue, UC Berkeley, and UC Riverside, to push the limits of autonomous driving technology on 1:1 scale electric go-karts.
+              We host the quarterly <strong>San Diego Robocar Tournament</strong> on campus, providing a platform for student robotics enthusiasts to compete and showcase their autonomous vehicles on a variety of race tracks. Each quarter, we travel to Oakland, CA to represent UC San Diego at the <strong>DIY Robocars Event</strong>—one of the premier gatherings for builders and racers of DIY autonomous cars.
             </p>
           </div>
           <div className={styles.splitImage}>
-            <img src="/img/team/gokart_1.png" />
+            <img src="/img/team/f1tenth.png" alt="San Diego Robocar Tournament" />
           </div>
         </section>
 
         <section className={styles.splitSectionAlt}>
           <div className={styles.splitImage}>
-            <img src="/img/team/gokart_5.jpg" />
+            <img src="/img/team/f1tenth_local.png" alt="F1Tenth Platform Rig" />
           </div>
           <div className={styles.splitText}>
-            <h2>State-of-the-Art Systems</h2>
+            <h2>Custom-Built Autonomy Stack</h2>
             <p>
-              At Triton AI, we are advancing the limits of autonomous mobility with our custom-designed electric go-kart, equipped with state-of-the-art sensors such as depth-sensing cameras, GPS/IMU systems, and LiDAR. These technologies allow us to develop and refine cutting-edge autonomous driving techniques, from perception and localization to planning and control, under the same real-world conditions faced by industry.
+              Our 1/10th scale autonomous vehicles are equipped with LiDAR, stereo cameras, and embedded compute to run full autonomy stacks including SLAM, path planning, and neural control. We continuously refine our systems using ROS 2 and real-time simulation environments to test new approaches at the edge of research.
             </p>
           </div>
         </section>
 
         <section className={styles.splitSection}>
           <div className={styles.splitText}>
-            <h2>Designed from the Ground Up</h2>
+            <h2>Global Virtual Racing</h2>
             <p>
-              Each team in AKS designs and builds its kart from the ground up, integrating perception, planning, and control systems to navigate a challenging, high-speed track autonomously. Teams are judged based on the speed of their autonomous laps, as well as how quickly and effectively their vehicles can maneuver around obstacles on the course.
+              We compete in global virtual F1Tenth tournaments against top teams from Japan, Germany, and Silicon Valley. Our simulations pit us against platforms like Nvidia JetRacer, Amazon DeepRacer, and custom neural net-driven agents, giving us opportunities to benchmark and improve our autonomy under competitive conditions.
             </p>
           </div>
           <div className={styles.splitImage}>
             <div className={styles.verticalImageGroup}>
               <img
-                  src="/img/team/gokart_working.png"
-                  alt="3d printing"
-                  className={styles.verticalImage}/>
-              </div>
+                src="/img/team/f1tenth_virtual.png"
+                alt="Virtual F1Tenth Race"
+                className={styles.verticalImage}
+              />
+            </div>
           </div>
         </section>
+
         <section className={styles.sectionIntro}>
           <p>
-            The series serves as a proving ground for our engineering decisions and offers an opportunity to benchmark our platform against some of the top robotics programs in the country. For Triton AI, AKS is more than a race, it is an opportunity to showcase innovation, learn from peer institutions, and remain on the leading edge of autonomous vehicle research.
+            F1Tenth gives us a fast-paced, research-driven arena to explore autonomy under real-world constraints. Whether on physical tracks or in the cloud, the competition helps our team push the boundaries of what’s possible in perception, planning, and control.
           </p>
           <p>
-            As our team continues to grow, we remain committed to pushing the boundaries of autonomy and contributing to the future of intelligent mobility.
+            As Triton AI continues to scale up, we remain committed to advancing autonomous racing technology and contributing to the broader robotics community through competition, innovation, and open collaboration.
           </p>
         </section>
-
-        </div>
+      </div>
     </Layout>
   );
 }

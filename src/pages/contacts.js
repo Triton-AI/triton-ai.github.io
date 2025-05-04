@@ -37,13 +37,13 @@ export default function ContactUs() {
           <h2>Sponsorship & Partnerships</h2>
           <p>
             Download our <a href="/docs/sponsorship-packet.pdf">2025 Sponsorship Packet</a><br/>
-            Email us at <a href="mailto:tritonai@ucsd.edu">tritonai@ucsd.edu</a>
+            Email us at <a href="mailto:triton-ai@ucsd.edu">triton-ai@ucsd.edu</a>
           </p>
         </section>
 
         <section className={styles.infoSection}>
           <h2>General Inquiries</h2>
-          <p>Email: <a href="mailto:tritonai@ucsd.edu">tritonai@ucsd.edu</a></p>
+          <p>Email: <a href="mailto:triton-ai@ucsd.edu">triton-ai@ucsd.edu</a></p>
         </section>
 
         <section className={styles.socialSection}>
@@ -54,9 +54,6 @@ export default function ContactUs() {
             </a>
             <a href="https://linkedin.com/company/tritonai" target="_blank" rel="noopener noreferrer" title="LinkedIn">
               <LinkedInIcon />
-            </a>
-            <a href="https://discord.gg/your-invite" target="_blank" rel="noopener noreferrer" title="Discord">
-              <DiscordIcon />
             </a>
           </div>
         </section>

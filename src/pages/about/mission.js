@@ -5,7 +5,6 @@ import styles from "./mission.module.css";
 
 import F1TENTH from "@site/static/img/index/robocarportrait.jpg";
 import GOKART from "@site/static/img/index/gokart.jpg";
-import FUN from "@site/static/img/index/robotxteamphoto.jpg";
 
 export default function MissionPage() {
   return (
@@ -54,9 +53,8 @@ export default function MissionPage() {
       <section className={styles.section}>
         <h2>Our Projects</h2>
         <div className={styles.projectCards}>
-          <ProjectCard title="F1Tenth" image={F1TENTH} to="/teams/f1tenth/2024" />
           <ProjectCard title="Go-Kart (AKS)" image={GOKART} to="/teams/gokart/2024" />
-          <ProjectCard title="Fun Projects" image={FUN} to="/projects/fun" />
+          <ProjectCard title="F1Tenth" image={F1TENTH} to="/teams/f1tenth/2024" />
         </div>
         <p>
           Triton AI subteams explore a variety of robotics platforms—from 1/10th scale racing cars to a full-size electric kart with full autonomy.

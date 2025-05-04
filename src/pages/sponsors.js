@@ -5,30 +5,43 @@ import styles from './/css/sponsors.module.css';
 const sponsors = {
   gold: [
     {
-      name: 'FILLER IMAGE 1',
-      logo: '/img/sponsors/nvidia.jpg',
-      url: 'https://www.nvidia.com',
+      name: 'AWS DeepRacer',
+      logo: '/img/sponsors/deepracer.png',
+      url: 'https://aws.amazon.com/deepracer/',
+    },
+    {
+      name: 'Brain Corp',
+      logo: '/img/sponsors/brain_corp.png',
+      url: 'https://www.braincorp.com/',
+    },
+    {
+      name: 'Robosense',
+      logo: '/img/sponsors/robosense.png',
+      url: 'https://www.robosense.ai/en',
     },
   ],
   silver: [
     {
-      name: 'Qualcomm',
-      logo: '/img/sponsors/qualcomm.jpeg',
-      url: 'https://www.qualcomm.com',
-    },
-    {
-      name: 'Intel',
-      logo: '/img/sponsors/intel.png',
-      url: 'https://www.intel.com',
+      name: 'Livox',
+      logo: '/img/sponsors/livox.png',
+      url: 'https://www.livoxtech.com/',
     },
   ],
   bronze: [
-    {
-      name: 'UC San Diego',
-      logo: '/img/sponsors/ucsd.png',
-      url: 'https://ucsd.edu',
-    },
   ],
+  general: [
+    {
+      name: 'Tesc',
+      logo: '/img/sponsors/tesc.png',
+      url: 'https://tesc.ucsd.edu/',
+    },
+    {
+      name: 'Viasat',
+      logo: '/img/sponsors/viasat.png',
+      url: 'https://www.viasat.com/',
+    },
+
+  ]
 };
 
 export default function SponsorshipPage() {
@@ -50,7 +63,6 @@ export default function SponsorshipPage() {
           {Object.entries(sponsors).map(([tier, companies]) => (
             <div key={tier} className={styles.tierSection}>
               <h3 className={styles.tierTitle}>{tier.charAt(0).toUpperCase() + tier.slice(1)}</h3>
-              <h3> THESE ARE FILLERS </h3>
               <div className={styles.logoGrid}>
                 {companies.map(({ name, logo, url }) => (
                   <a key={name} href={url} target="_blank" rel="noopener noreferrer" className={styles.logoCard}>
