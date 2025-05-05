@@ -51,16 +51,50 @@ export default function CurrentMembers() {
         </section>
 
         <section>
-          <h2 className={styles.sectionTitle}>Executive Board</h2>
-          <div className={styles.grid}>
-            <TeamMember name="Example" role="Example Role" image="/img/team/" link="https://linkedin.com/in/example" />
-          </div>
-        </section>
-
-        <section>
           <h2 className={styles.sectionTitle}>Core Contributors</h2>
           <div className={styles.grid}>
-            <TeamMember name="Example" role="Example Role" image="/img/team/" />
+            <TeamMember
+              name="Gino Angelici"
+              role="GoKart"
+              image="/img/team/gino.jpg"
+              link="https://www.linkedin.com/in/gino-angelici/"
+            />
+            <TeamMember
+              name="Winston Chou"
+              role="GoKart, F1Tenth"
+              image="/img/team/winston.jpeg"
+              link="https://www.linkedin.com/in/winston-wei-han-chou-a02214249/"
+            />
+            <TeamMember
+              name="Alexander Haken"
+              role="GoKart"
+              image="/img/team/alex.jpg"
+              link="https://www.linkedin.com/in/alexanderhaken/"
+            />
+            <TeamMember
+              name="Aryan Palaskar"
+              role="GoKart"
+              image="/img/team/aryan.jpeg"
+              link="https://www.linkedin.com/in/aryan-palaskar-309b10176/"
+            />
+            <TeamMember
+              name="Matthew Pope"
+              role="GoKart"
+              image="/img/team/pope.jpeg"
+              link="https://www.linkedin.com/in/matthew-a-pope/"
+            />
+            <TeamMember
+              name="Kevin Shin"
+              role="GoKart"
+              image="/img/team/kevin.jpeg"
+              link="https://www.linkedin.com/in/kevin-shin02/"
+              />
+            <TeamMember
+              name="Jingli Zhou"
+              role="GoKart, F1Tenth"
+              image="/img/team/jingli.jpeg"
+              link="https://www.linkedin.com/in/jingli-zhou-071375260/"
+            />
           </div>
         </section>
       </div>
