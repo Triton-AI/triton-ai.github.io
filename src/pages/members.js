@@ -46,11 +46,6 @@ export default function CurrentMembers() {
         <section>
           <h2 className={styles.sectionTitle}>Advisors</h2>
           <div className={styles.grid}>
-            <TeamMember name="Wayne Li" 
-              role="Autonomy Advisor" 
-              image="/img/team/wayne.jpeg" 
-              link="https://www.linkedin.com/in/wayneli95/" 
-            />
             <TeamMember name="Jack Silberman" 
               role="Faculty Advisor" 
               image="/img/team/silberman.png" 
