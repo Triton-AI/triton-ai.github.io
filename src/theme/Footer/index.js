@@ -15,8 +15,8 @@ export default function Footer() {
 
           <div className={styles.sponsorSection}>
             <span className={styles.sponsorLabel}>Official Sponsor</span>
-            <a href="https://www.nvidia.com/" target="_blank" rel="noopener">
-              <img src="/img/sponsors/nvidia.jpg" alt="NVIDIA" />
+            <a href="https://jacobsschool.ucsd.edu/" target="_blank" rel="noopener">
+              <img src="/img/sponsors/tesc.png" alt="blank" />
             </a>
           </div>
         </div>

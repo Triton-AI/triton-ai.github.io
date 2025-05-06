@@ -53,8 +53,8 @@ export default function MissionPage() {
       <section className={styles.section}>
         <h2>Our Projects</h2>
         <div className={styles.projectCards}>
-          <ProjectCard title="Go-Kart (AKS)" image={GOKART} to="/teams/gokart/2024" />
-          <ProjectCard title="F1Tenth" image={F1TENTH} to="/teams/f1tenth/2024" />
+          <ProjectCard title="Go-Kart (AKS)" image={GOKART} to="/teams/gokart" />
+          <ProjectCard title="F1Tenth" image={F1TENTH} to="/teams/f1tenth" />
         </div>
         <p>
           Triton AI subteams explore a variety of robotics platforms—from 1/10th scale racing cars to a full-size electric kart with full autonomy.
