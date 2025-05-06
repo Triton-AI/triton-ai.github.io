@@ -26,6 +26,7 @@ export default function TeamsLanding() {
     <Layout title="Past Teams – Triton AI">
       <div className={styles.container}>
         <h1 className={styles.title}>Explore Our Teams</h1>
+        <h2>Our flagship projects include GoKart and F1Tenth, with active collaborations on Indy Autonomous Challenge and Project Inspiration</h2>
         <div className={styles.cardGrid}>
           <ProjectCard title="GoKart" image={gokartImg} link="/teams/gokart" />
           <ProjectCard title="F1Tenth" image={f1tenthImg} link="/teams/f1tenth" />

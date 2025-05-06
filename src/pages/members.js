@@ -46,7 +46,17 @@ export default function CurrentMembers() {
         <section>
           <h2 className={styles.sectionTitle}>Advisors</h2>
           <div className={styles.grid}>
-            <TeamMember name="Jack Silberman" role="Faculty Advisor" image="/img/team/silberman.png" link="https://www.linkedin.com/in/jacksilberman" />
+            <TeamMember name="Wayne Li" 
+              role="Autonomy Advisor" 
+              image="/img/team/wayne.jpeg" 
+              link="https://www.linkedin.com/in/wayneli95/" 
+            />
+            <TeamMember name="Jack Silberman" 
+              role="Faculty Advisor" 
+              image="/img/team/silberman.png" 
+              link="https://www.linkedin.com/in/jacksilberman" 
+            />
+
           </div>
         </section>
 
@@ -58,6 +68,12 @@ export default function CurrentMembers() {
               role="GoKart"
               image="/img/team/gino.jpg"
               link="https://www.linkedin.com/in/gino-angelici/"
+            />
+            <TeamMember
+              name="Jeff Bratman"
+              role="GoKart"
+              image="/img/team/jeff.jpg"
+              link="https://www.linkedin.com/in/jeffrey-bratman/"
             />
             <TeamMember
               name="Winston Chou"
@@ -88,7 +104,13 @@ export default function CurrentMembers() {
               role="GoKart"
               image="/img/team/kevin.jpeg"
               link="https://www.linkedin.com/in/kevin-shin02/"
-              />
+            />
+            <TeamMember
+              name="Daniel Warren"
+              role="GoKart"
+              image="/img/team/daniel.jpeg"
+              link="https://www.linkedin.com/in/danielpwarren/"
+            />
             <TeamMember
               name="Jingli Zhou"
               role="GoKart, F1Tenth"
