@@ -26,15 +26,6 @@ const HomeCard = ({ title, heroCardBg, to }) => (
 );
 
 export default function Home() {
-  const { siteConfig } = useDocusaurusContext();
-  const globalData = useGlobalData();
-
-  const newsPlugin =
-    globalData["plugin-content-blog-news"]?.default?.blogPosts ?? [];
-  const recentNews = Array.isArray(newsPlugin)
-    ? newsPlugin.slice(0, 3)
-    : [];
-
   return (
     <Layout title="Triton AI">
       <div className={styles.container}>
@@ -63,15 +54,14 @@ export default function Home() {
 
           </div>
         </div>
-
-        {/* Intro */}
           <div id="nextSection" className={styles.sectionHeader}>
             <h3>
               We're not just a club — we're a robotics team driven by curiosity...
             </h3>
-            <Link to="/latest" className="button-cta">
-             Latest News
-            </Link>
+          <p>See how Triton AI is being recognized across platforms.</p>
+          <Link className="button button--primary" to="/news">
+            Latest News
+          </Link>
           </div>
 
 
@@ -135,29 +125,6 @@ export default function Home() {
           />
         </div>
 
-        {/* News Section */}
-        <section className={styles.newsSection}>
-          <h2>📰 Latest News</h2>
-          <p>See how Triton AI is being recognized across platforms.</p>
-          <div className={styles.newsList}>
-            {recentNews.map((post) => (
-              <Link
-                key={post.metadata.permalink}
-                to={post.metadata.permalink}
-              >
-                <div className={styles.newsCard}>
-                  <h4>{post.metadata.title}</h4>
-                  <p>
-                    {post.metadata.description ?? "Click to read the full post."}
-                  </p>
-                </div>
-              </Link>
-            ))}
-          </div>
-          <Link className="button button--primary" to="/news">
-            View All Coverage
-          </Link>
-        </section>
       </div>
     </Layout>
   );

@@ -72,7 +72,7 @@ const config = {
   {
     id: 'news',
     routeBasePath: 'news', 
-    path: './news',
+    path: 'news',
     blogTitle: 'Media & Coverage',
     blogSidebarTitle: 'All Posts',
   },
