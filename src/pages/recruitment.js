@@ -25,7 +25,7 @@ export default function RecruitmentPage() {
           >
             <input type="hidden" name="_captcha" value="false" />
             <input type="hidden" name="_template" value="box" />
-
+            <input type="text" name="_honey" style={{ display: 'none' }} />
             <label>
               Full Name
               <input type="text" name="name" required />
@@ -60,4 +60,3 @@ export default function RecruitmentPage() {
     </Layout>
   );
 }
-

@@ -22,6 +22,11 @@ const sponsors = {
   ],
   silver: [
     {
+      name: 'Lockheed Martin',
+      logo: '/img/sponsors/lockheed.png',
+      url: 'https://www.lockheedmartin.com/en-us/index.html',
+    },
+    {
       name: 'Livox',
       logo: '/img/sponsors/livox.png',
       url: 'https://www.livoxtech.com/',

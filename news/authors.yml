@@ -1,0 +1,36 @@
+aryan:
+  name: "Aryan Palaskar"
+  title: "Software Lead, GoKart 2025"
+  url: "https://www.linkedin.com/in/aryan-palaskar-309b10176/"
+  image_url: "/img/team/aryan.jpeg"
+
+drew:
+  name: "Andrew Britten"
+  title: "TritonAI Founder"
+  url: https://www.linkedin.com/in/andrew-britten-354883a5/
+  image_url: "/img/team/drew.jpeg"
+
+jeff:
+  name: "Jeff Bratman"
+  title: "Mechanical Lead, GoKart 2025"
+  url: "https://www.linkedin.com/in/jeffrey-bratman/"
+  image_url: "/img/team/jeff.jpg"
+
+kevin:
+  name: "Kevin Shin"
+  title: "Perception Lead, GoKart 2025"
+  url: "https://www.linkedin.com/in/kevin-shin02/"
+  image_url: "/img/team/kevin.jpeg"
+
+matthew:
+  name: "Matthew Pope"
+  title: "Mechanical Lead, GoKart 2025"
+  url: "https://www.linkedin.com/in/matthew-a-pope/"
+  image_url: "/img/team/pope.jpeg"
+
+winston:
+  name: "Winston Chou"
+  title: "Localization and Controls Lead, GoKart 2025"
+  url: "https://www.linkedin.com/in/winston-wei-han-chou-a02214249/"
+  image_url: "/img/team/winston.jpeg"
+

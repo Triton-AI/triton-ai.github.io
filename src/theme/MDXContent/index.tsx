@@ -24,7 +24,6 @@ export default function MDXContent({ children }: Props): JSX.Element {
   return (
     <MDXProvider components={components}>
       {children}
-      <FeedbackForm /> 
     </MDXProvider>
   );
 }
