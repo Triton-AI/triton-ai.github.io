@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktriton_docs=self.webpackChunktriton_docs||[]).push([[2635],{2763:t=>{t.exports=JSON.parse('{"title":"All Posts","items":[{"title":"Welcome to Triton AI","permalink":"/news/welcome-to-triton-ai","unlisted":false,"date":"2025-05-18T00:00:00.000Z"}]}')}}]);

@@ -10,14 +10,19 @@
         <language>en</language>
         <item>
             <title><![CDATA[Welcome to Triton AI]]></title>
-            <link>https://triton-ai.github.io/news/welcome</link>
-            <guid>https://triton-ai.github.io/news/welcome</guid>
+            <link>https://triton-ai.github.io/news/welcome-to-triton-ai</link>
+            <guid>https://triton-ai.github.io/news/welcome-to-triton-ai</guid>
             <pubDate>Sun, 18 May 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Learn about our mission and where we're headed next.]]></description>
-            <content:encoded><![CDATA[<p>We’re excited to launch Triton AI — UC San Diego’s competitive robotics team.</p>
-<p>We build robots that learn, compete, and inspire.</p><button class="button hiddenForm">Give Feedback</button>]]></content:encoded>
-            <category>announcement</category>
-            <category>robotics</category>
+            <description><![CDATA[Discover our mission and what we’re building at UC San Diego.]]></description>
+            <content:encoded><![CDATA[<p>We're excited to launch Triton AI's brand new website!</p>
+<h3 class="anchor anchorWithStickyNavbar_lrMl" id="why-join-us">Why Join Us?<a href="https://triton-ai.github.io/news/welcome-to-triton-ai#why-join-us" class="hash-link" aria-label="Direct link to Why Join Us?" title="Direct link to Why Join Us?">​</a></h3>
+<ul>
+<li>Hands-on experience with LIDAR, GNSS, stereo vision, and real-time systems</li>
+<li>A community of builders passionate about robotics</li>
+<li>Opportunities to grow in leadership, engineering, and AI research</li>
+<li>A growing online platform to share your work and contribute to open-source robotics</li>
+</ul>
+<p>Check out our <a href="https://triton-ai.github.io/recruitment">recruitment page</a> to apply — and explore the rest of our new site while you're here!</p>]]></content:encoded>
         </item>
     </channel>
 </rss>
