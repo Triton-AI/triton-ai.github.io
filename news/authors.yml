@@ -4,6 +4,12 @@ aryan:
   url: "https://www.linkedin.com/in/aryan-palaskar-309b10176/"
   image_url: "/img/team/aryan.jpeg"
 
+drew:
+  name: "Andrew Britten"
+  title: "TritonAI Founder"
+  url: https://www.linkedin.com/in/andrew-britten-354883a5/
+  image_url: "/img/team/drew.jpeg"
+
 jeff:
   name: "Jeff Bratman"
   title: "Mechanical Lead, GoKart 2025"
