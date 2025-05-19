@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktriton_docs=self.webpackChunktriton_docs||[]).push([[7016],{9472:s=>{s.exports=JSON.parse('{"name":"docusaurus-plugin-content-blog","id":"news"}')}}]);

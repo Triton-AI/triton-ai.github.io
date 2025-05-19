@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktriton_docs=self.webpackChunktriton_docs||[]).push([[1678],{6899:n=>{n.exports=JSON.parse('{"tags":[{"label":"announcement","permalink":"/news/tags/announcement","count":1},{"label":"robotics","permalink":"/news/tags/robotics","count":1}]}')}}]);
