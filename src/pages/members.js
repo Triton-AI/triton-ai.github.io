@@ -51,7 +51,11 @@ export default function CurrentMembers() {
               image="/img/team/silberman.png" 
               link="https://www.linkedin.com/in/jacksilberman" 
             />
-
+            <TeamMember name="Andrew Britten"
+              role="Club Advisor"
+              image="/img/team/drew.jpeg"
+              link="https://www.linkedin.com/in/andrew-britten-354883a5/"
+            />
           </div>
         </section>
 
@@ -60,21 +64,27 @@ export default function CurrentMembers() {
           <div className={styles.grid}>
             <TeamMember
               name="Gino Angelici"
-              role="GoKart"
+              role="ART Stack"
               image="/img/team/gino.jpg"
               link="https://www.linkedin.com/in/gino-angelici/"
             />
             <TeamMember
               name="Jeff Bratman"
-              role="GoKart"
+              role="Mechanical Lead"
               image="/img/team/jeff.jpg"
               link="https://www.linkedin.com/in/jeffrey-bratman/"
             />
             <TeamMember
               name="Winston Chou"
-              role="GoKart, F1Tenth"
+              role="Controls Lead"
               image="/img/team/winston.jpeg"
               link="https://www.linkedin.com/in/winston-wei-han-chou-a02214249/"
+            />
+            <TeamMember
+              name="Rashi Haria"
+              role="Nav2 Stack"
+              image="/img/team/rashi.jpg"
+              link="https://www.linkedin.com/in/rashiharia"
             />
             <TeamMember
               name="Alexander Haken"
@@ -84,25 +94,25 @@ export default function CurrentMembers() {
             />
             <TeamMember
               name="Aryan Palaskar"
-              role="GoKart"
+              role="Software Lead"
               image="/img/team/aryan.jpeg"
               link="https://www.linkedin.com/in/aryan-palaskar-309b10176/"
             />
             <TeamMember
               name="Matthew Pope"
-              role="GoKart"
+              role="Mechanical Lead"
               image="/img/team/pope.jpeg"
               link="https://www.linkedin.com/in/matthew-a-pope/"
             />
             <TeamMember
               name="Kevin Shin"
-              role="GoKart"
+              role="Perception Lead"
               image="/img/team/kevin.jpeg"
               link="https://www.linkedin.com/in/kevin-shin02/"
             />
             <TeamMember
               name="Daniel Warren"
-              role="GoKart"
+              role="Real Team Controller, ART Stack"
               image="/img/team/daniel.jpeg"
               link="https://www.linkedin.com/in/danielpwarren/"
             />
