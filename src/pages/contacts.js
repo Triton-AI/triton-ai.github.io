@@ -34,14 +34,6 @@ export default function ContactUs() {
 
       <div className={styles.container}>
         <section className={styles.infoSection}>
-          <h2>Sponsorship & Partnerships</h2>
-          <p>
-            Download our <a href="/docs/sponsorship-packet.pdf">2025 Sponsorship Packet</a><br/>
-            Email us at <a href="mailto:triton-ai@ucsd.edu">triton-ai@ucsd.edu</a>
-          </p>
-        </section>
-
-        <section className={styles.infoSection}>
           <h2>General Inquiries</h2>
           <p>Email: <a href="mailto:triton-ai@ucsd.edu">triton-ai@ucsd.edu</a></p>
         </section>
@@ -49,10 +41,10 @@ export default function ContactUs() {
         <section className={styles.socialSection}>
           <h2>Follow Us</h2>
           <div className={styles.socialIcons}>
-            <a href="https://instagram.com/tritonai" target="_blank" rel="noopener noreferrer" title="Instagram">
+            <a href="https://instagram.com/triton.ai" target="_blank" rel="noopener noreferrer" title="Instagram">
               <InstagramIcon />
             </a>
-            <a href="https://linkedin.com/company/tritonai" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+            <a href="https://linkedin.com/company/triton-ai-ucsd" target="_blank" rel="noopener noreferrer" title="LinkedIn">
               <LinkedInIcon />
             </a>
           </div>

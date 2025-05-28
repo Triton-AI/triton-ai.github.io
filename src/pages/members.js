@@ -56,6 +56,12 @@ export default function CurrentMembers() {
               image="/img/team/drew.jpeg"
               link="https://www.linkedin.com/in/andrew-britten-354883a5/"
             />
+            <TeamMember
+              name="Colin Szeto"
+              role="Club President"
+              image="/img/team/colin.jpeg"
+              link="https://www.linkedin.com/in/colin-szeto/"
+            />
           </div>
         </section>
 
@@ -76,7 +82,7 @@ export default function CurrentMembers() {
             />
             <TeamMember
               name="Winston Chou"
-              role="Controls Lead"
+              role="Software & Controls Lead"
               image="/img/team/winston.jpeg"
               link="https://www.linkedin.com/in/winston-wei-han-chou-a02214249/"
             />
@@ -100,13 +106,13 @@ export default function CurrentMembers() {
             />
             <TeamMember
               name="Matthew Pope"
-              role="Mechanical Lead"
+              role="GoKart Lead"
               image="/img/team/pope.jpeg"
               link="https://www.linkedin.com/in/matthew-a-pope/"
             />
             <TeamMember
               name="Kevin Shin"
-              role="Perception Lead"
+              role="Software"
               image="/img/team/kevin.jpeg"
               link="https://www.linkedin.com/in/kevin-shin02/"
             />

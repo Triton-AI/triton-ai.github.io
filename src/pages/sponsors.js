@@ -11,7 +11,7 @@ const sponsors = {
     },
     {
       name: 'Brain Corp',
-      logo: '/img/sponsors/brain_corp.png',
+      logo: '/img/sponsors/brain.svg',
       url: 'https://www.braincorp.com/',
     },
     {
@@ -19,16 +19,21 @@ const sponsors = {
       logo: '/img/sponsors/robosense.png',
       url: 'https://www.robosense.ai/en',
     },
+    {
+      name: 'Shield AI',
+      logo: '/img/sponsors/shield.svg',
+      url: 'https://www.shield'
+    }
   ],
   silver: [
     {
       name: 'Lockheed Martin',
-      logo: '/img/sponsors/lockheed.png',
+      logo: '/img/sponsors/lockheed.svg',
       url: 'https://www.lockheedmartin.com/en-us/index.html',
     },
     {
       name: 'Livox',
-      logo: '/img/sponsors/livox.png',
+      logo: '/img/sponsors/livox.svg',
       url: 'https://www.livoxtech.com/',
     },
   ],

@@ -16,7 +16,7 @@
 
 /* === Hero === */
 .hero {
-  background: url(/img/team/tai_old.jpg) center/cover no-repeat;
+  background: url(/img/team/tai_old.jpg) center top 30% / cover no-repeat; 
   height: 520px;
   position: relative;
   display: flex;

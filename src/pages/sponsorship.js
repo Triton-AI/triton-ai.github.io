@@ -70,22 +70,8 @@ export default function SponsorshipPage() {
               </ul>
             </div>
           </HomeCard>
-        </div>
 
-        <div className={styles.handbookSection}>
-          <p className="text-center text-gray max-w-2xl mx-auto">
-            For a full breakdown of long-term partner benefits, branding visibility, recruitment pipelines, and team access, view our detailed handbook.
-          </p>
-          <div className="text-center mt-6">
-            <a
-              className="button button--primary"
-              href="https://google.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              View Full Sponsor Handbook
-            </a>
-          </div>
+          <div></div> 
         </div>
 
         <div className={styles.ctaSection}>
