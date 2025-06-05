@@ -58,76 +58,100 @@ export default function CurrentMembers() {
             />
             <TeamMember
               name="Colin Szeto"
-              role="Club President"
+              role="Executive Advisor"
               image="/img/team/colin.jpeg"
               link="https://www.linkedin.com/in/colin-szeto/"
             />
           </div>
         </section>
+       
+        <section>
+          <h2 className={styles.sectionTitle}>Project Leads</h2>
+            <div className={styles.grid}>
+              <TeamMember
+                name="Matthew Pope"
+                role="GoKart Lead"
+                image="/img/team/pope.jpeg"
+                link="https://www.linkedin.com/in/matthew-a-pope/"
+              />
+            </div>
+        </section>
+
+        <section>
+            <h2 className={styles.sectionTitle}>Team Leads</h2>
+              <div className={styles.grid}>
+                <TeamMember
+                  name="Jeff Bratman"
+                  role="Mechanical Lead"
+                  image="/img/team/jeff.jpg"
+                  link="https://www.linkedin.com/in/jeffrey-bratman/"
+                />
+                <TeamMember
+                  name="Aryan Palaskar"
+                  role="Software Lead"
+                  image="/img/team/aryan.jpeg"
+                  link="https://www.linkedin.com/in/aryan-palaskar-309b10176/"
+                />
+                <TeamMember
+                  name="Winston Chou"
+                  role="Software & Controls Lead"
+                  image="/img/team/winston.jpeg"
+                  link="https://www.linkedin.com/in/winston-wei-han-chou-a02214249/"
+                />
+                <TeamMember
+                  name="Kevin Shin"
+                  role="Perception & Localization Lead"
+                  image="/img/team/kevin.jpeg"
+                  link="https://www.linkedin.com/in/kevin-shin02/"
+                />
+          </div>
+        </section>
 
         <section>
           <h2 className={styles.sectionTitle}>Core Contributors</h2>
-          <div className={styles.grid}>
-            <TeamMember
-              name="Gino Angelici"
-              role="ART Stack"
-              image="/img/team/gino.jpg"
-              link="https://www.linkedin.com/in/gino-angelici/"
-            />
-            <TeamMember
-              name="Jeff Bratman"
-              role="Mechanical Lead"
-              image="/img/team/jeff.jpg"
-              link="https://www.linkedin.com/in/jeffrey-bratman/"
-            />
-            <TeamMember
-              name="Winston Chou"
-              role="Software & Controls Lead"
-              image="/img/team/winston.jpeg"
-              link="https://www.linkedin.com/in/winston-wei-han-chou-a02214249/"
-            />
-            <TeamMember
-              name="Rashi Haria"
-              role="Nav2 Stack"
-              image="/img/team/rashi.jpg"
-              link="https://www.linkedin.com/in/rashiharia"
-            />
-            <TeamMember
-              name="Alexander Haken"
-              role="GoKart"
-              image="/img/team/alex.jpg"
-              link="https://www.linkedin.com/in/alexanderhaken/"
-            />
-            <TeamMember
-              name="Aryan Palaskar"
-              role="Software Lead"
-              image="/img/team/aryan.jpeg"
-              link="https://www.linkedin.com/in/aryan-palaskar-309b10176/"
-            />
-            <TeamMember
-              name="Matthew Pope"
-              role="GoKart Lead"
-              image="/img/team/pope.jpeg"
-              link="https://www.linkedin.com/in/matthew-a-pope/"
-            />
-            <TeamMember
-              name="Kevin Shin"
-              role="Software"
-              image="/img/team/kevin.jpeg"
-              link="https://www.linkedin.com/in/kevin-shin02/"
-            />
-            <TeamMember
-              name="Daniel Warren"
-              role="Real Team Controller, ART Stack"
-              image="/img/team/daniel.jpeg"
-              link="https://www.linkedin.com/in/danielpwarren/"
-            />
-            <TeamMember
-              name="Jingli Zhou"
-              role="GoKart, F1Tenth"
-              image="/img/team/jingli.jpeg"
-              link="https://www.linkedin.com/in/jingli-zhou-071375260/"
-            />
+            <div className={styles.grid}>
+          <TeamMember
+            name="Angel Hernandez"
+            role="SVL Simulator and Sensor Fusion"
+            image="/img/team/angel.jpeg"
+            link="https://www.linkedin.com/in/angel-j-hernandez/"
+          />
+          <TeamMember
+            name="Alexander Haken"
+            role="GoKart"
+            image="/img/team/alex.jpg"
+            link="https://www.linkedin.com/in/alexanderhaken/"
+          />
+          <TeamMember
+            name="Daniel Warren"
+            role="Real Team Controller, ART Stack"
+            image="/img/team/daniel.jpeg"
+            link="https://www.linkedin.com/in/danielpwarren/"
+          />
+          <TeamMember
+            name="Gino Angelici"
+            role="ART Stack"
+            image="/img/team/gino.jpg"
+            link="https://www.linkedin.com/in/gino-angelici/"
+          />
+          <TeamMember
+            name="Jingli Zhou"
+            role="GoKart, F1Tenth"
+            image="/img/team/jingli.jpeg"
+            link="https://www.linkedin.com/in/jingli-zhou-071375260/"
+          />
+          <TeamMember
+            name="Rashi Haria"
+            role="Nav2 Stack"
+            image="/img/team/rashi.jpg"
+            link="https://www.linkedin.com/in/rashiharia"
+          />
+          <TeamMember
+            name="Samuel Kao"
+            role="Nav2 Stack"
+            image="/img/team/samuel.jpeg"
+            link="https://www.linkedin.com/in/samuel-chi-en-kao-486382208/"
+          />
           </div>
         </section>
       </div>
