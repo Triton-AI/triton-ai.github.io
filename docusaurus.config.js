@@ -188,14 +188,6 @@ const config = {
                       ],
                 },
                 {
-                  label: "Sponsors",
-                  position: "right",
-                  items: [
-                          { label: "Become a Sponsor", to: "/sponsorship" },
-                          { label: "Current Sponsors", to: "/sponsors" },
-                          ],
-                },
-                {
                   label: "Contact Us",
                   to: "/contacts",
                   position: "right"
