@@ -21,3 +21,11 @@
         GIT_USER=<name> npm run deploy
         ```
         This pushes to github pages so it becomes live on https://triton-ai.github.io/
+
+## No Container
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+source ~/.bashrc
+nvm install 20 && nvm use 20
+npm install -g pnpm
+```
