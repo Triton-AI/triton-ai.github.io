@@ -32,10 +32,14 @@ export default function SponsorshipPage() {
             Partner with us to power innovation in robotics, autonomy, and AI.
             Triton AI proudly works with industry leaders to develop next-gen engineering talent.
           </p>
+          <p>Search for Triton AI with E8022</p>
+          <a href="https://blink.ucsd.edu/_files/research-tab/preparing-proposals/ucsd-ein-tin-confirmation-letter.pdf">
+          Taxpayer Identification Number (TIN) 95-6006144
+          </a>
         </div>
 
         <div className={styles.tierRow}>
-          <HomeCard title="Gold" heroCardBg={goldBg} to="https://www.zeffy.com/en-US/donation-form/ace63637-81f0-43a8-b1e8-57d86cfa3d1f">
+          <HomeCard title="Gold" heroCardBg={goldBg} to="https://giveto.ucsd.edu/giving/home/">
             <div className={styles.tierDetails}>
               <div className={`${styles.tierBadge} ${styles.gold}`}>$2000+</div>
               <ul className={styles.benefitsList}>
@@ -48,7 +52,7 @@ export default function SponsorshipPage() {
             </div>
           </HomeCard>
 
-          <HomeCard title="Silver" heroCardBg={silverBg} to="https://www.zeffy.com/en-US/donation-form/ace63637-81f0-43a8-b1e8-57d86cfa3d1f">
+          <HomeCard title="Silver" heroCardBg={silverBg} to="https://giveto.ucsd.edu/giving/home/">
             <div className={styles.tierDetails}>
               <div className={`${styles.tierBadge} ${styles.silver}`}>$1000+</div>
               <ul className={styles.benefitsList}>
@@ -60,7 +64,7 @@ export default function SponsorshipPage() {
             </div>
           </HomeCard>
 
-          <HomeCard title="Bronze" heroCardBg={bronzeBg} to="https://www.zeffy.com/en-US/donation-form/ace63637-81f0-43a8-b1e8-57d86cfa3d1f">
+          <HomeCard title="Bronze" heroCardBg={bronzeBg} to="https://giveto.ucsd.edu/giving/home/">
             <div className={styles.tierDetails}>
               <div className={`${styles.tierBadge} ${styles.bronze}`}>$500+</div>
               <ul className={styles.benefitsList}>

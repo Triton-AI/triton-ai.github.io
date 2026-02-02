@@ -114,6 +114,11 @@ export default function Home() {
             to="/recruitment"
           />
           <HomeCard
+            title="Support TritonAI"
+            heroCardBg={ROBOTX}
+            to="/sponsorship"
+          />
+          <HomeCard
             title="Stay Connected"
             heroCardBg={IAC}
             to="/contacts"
